@@ -1,8 +1,8 @@
 import boto3
 import os
 import json
-import prompts
 import re
+import pandas as pd
 from botocore.exceptions import ClientError
 from dotenv import load_dotenv
 from typing import List, Optional, Iterator
@@ -103,6 +103,11 @@ class Display:
     def text_clumps(clumps: List[str]):
         for i, clump in enumerate(clumps, 1):
             print(f"Clump {i}:\n{clump}\n")
+
+    def dict_to_df(table: dict):
+        rows = table['rows']
+        df = pd.DataFrame(rows)
+        return df
 
 class Execute:
     def get_table(conversations: str, existing_table:Table)-> Table:
