@@ -7,6 +7,7 @@ from botocore.exceptions import ClientError
 from dotenv import load_dotenv
 from typing import List, Optional, Iterator
 from pydantic import BaseModel
+from fuzzywuzzy import fuzz
 load_dotenv()
 
 client = boto3.client(
@@ -227,7 +228,16 @@ class CombineTables:
             exit(1)
 
     def similarity(self, s1, s2):
-        return s1.lower() == s2.lower()
+        s1 = s1.lower()
+        s2 = s2.lower()
+        if "issue" in s1 and "issue" in s2:
+            s1 = s1.replace("issue", "")
+            s2 = s2.replace("issue", "")
+        sim = fuzz.ratio(s1, s2)
+        if sim >= 80:
+            return True
+        else:
+            return False
 
     def get_subtable(self, clump: str):
         table_new_string = Execute.get_table(conversations=clump, existing_table=self.table_format)
@@ -239,7 +249,9 @@ class CombineTables:
         for new_row in table_new["rows"]:
             existing_row = next((row for row in self.combined_table["rows"] if (self.similarity(row["topic"],new_row["topic"]))), None) 
             if existing_row:
+                print(f'sim between {existing_row["topic"]} and {new_row["topic"]}: {self.similarity(existing_row["topic"],new_row["topic"])}')
                 existing_row["count"] += 1
+                existing_row["description"] += f'\n #({existing_row["count"]}) {new_row["description"]}'
             else:
                 current_table_length = len(self.combined_table["rows"])
                 new_row["no"] = current_table_length + 1

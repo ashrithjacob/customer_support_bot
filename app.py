@@ -6,7 +6,6 @@ from streamlit_autorefresh import st_autorefresh
 from io import StringIO
 
 
-
 uploaded_file = st.file_uploader("Choose a file")
 
 table_placeholder = st.empty()
@@ -28,3 +27,4 @@ if uploaded_file is not None:
         table_formatted = helper.Display.dict_to_df(runner.combined_table)
         with table_placeholder.container():
           st.table(table_formatted)
+ 
