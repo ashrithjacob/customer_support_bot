@@ -30,6 +30,25 @@ class Table(BaseModel):
     rows: List[Row]
 
 class PreProcess:
+    def is_csv(file_path: str) -> bool:
+        return file_path.endswith(".csv") 
+
+    def is_txt(file_path: str) -> bool:
+        return file_path.endswith(".txt")
+    
+    def df_to_string(df: pd.DataFrame) -> str:
+        result = []
+        for _, row in df.iterrows():
+            row_strings = []
+            for col, val in row.items():
+                if col == df.columns[-1]:
+                    row_strings.append(f"{val}")
+                else:
+                    row_strings.append(f"{col}: {val}")
+            result.append("\n".join(row_strings))
+        return "\n\n\n".join(result)
+
+
     def split_text_file(file_contents: str, min_equals: int = 3) -> List[str]:
         """
         Read a text file and split it into chunks based on separator lines containing equals signs.
