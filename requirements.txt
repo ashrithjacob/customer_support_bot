@@ -7,3 +7,4 @@ pydantic==2.9.2
 python-dotenv==1.0.1
 streamlit==1.39.0
 streamlit_autorefresh==1.0.1
+groq==0.12.0

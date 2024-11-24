@@ -1,0 +1,1156 @@
+Timestamp: 2024-06-13T16:01:19Z
+Unread:false
+Visitor ID: 9245058.1L8mce3YNppxMtr
+Visitor Name: Visitor 8941852
+Visitor Email: 
+Visitor Notes: 
+IP: 98.21.232.178
+Country Code: US
+Country Name: United States
+Region: North Carolina
+City: Charlotte
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Platform: Windows
+Browser: Chrome
+
+(2024-06-13 16:01:19) Visitor 8941852: HELLO THERE
+(2024-06-13 16:01:38) Visitor 8941852: This is Orbin with P&G Landscaping LLC
+(2024-06-13 16:01:42) Samuel Clark: Hey there! This is Samuel from SimpleGrowth Systems Chat Support. How can I help you today?
+(2024-06-13 16:02:08) Visitor 8941852: my 20 day to close automation is not working
+(2024-06-13 16:02:30) Samuel Clark: I apologise for the inconvenience caused
+(2024-06-13 16:02:43) Samuel Clark: Can you please let me know what exactly is the issue?
+(2024-06-13 16:02:45) Visitor 8941852: could you help with thta?
+(2024-06-13 16:03:09) Samuel Clark: Sure. I will check that for you.
+(2024-06-13 16:03:25) Samuel Clark: But can you please let me know what exactly is the issue?
+(2024-06-13 16:03:49) Visitor 8941852: that automation is not sending the text message or the follow up
+(2024-06-13 16:04:59) Visitor 8941852: also we had an automation for Monthly newsletters  but i can not see it to turn it on
+(2024-06-13 16:05:14) Samuel Clark: Sure I will check both the automations
+(2024-06-13 16:05:43) Samuel Clark: For 20 DTC can you please help me with some contact examples for whom the text messages have not been sent out
+(2024-06-13 16:06:08) Visitor 8941852: the new estimates that we send
+(2024-06-13 16:06:34) Samuel Clark: Ok let me check that for you.
+(2024-06-13 16:06:48) Samuel Clark: Allow me a few minutes while I check this for you.
+(2024-06-13 16:07:03) Visitor 8941852: sure
+(2024-06-13 16:08:18) Visitor 8941852: I this that automation has the quote link in there and yesterday we have the call ahead automation that was not working and it was because of a link that was in the text message
+(2024-06-13 16:08:34) Visitor 8941852: I think is the same issue
+(2024-06-13 16:08:41) Samuel Clark: Yes that is the issue
+(2024-06-13 16:09:06) Samuel Clark: The quote link present in the text messages is preventing the text messages to go out.
+(2024-06-13 16:09:36) Visitor 8941852: I figure but wanted to make sure
+(2024-06-13 16:10:18) Samuel Clark: We have escalated this issue with the development team and they are looking for a work around for this issue.
+(2024-06-13 16:10:50) Samuel Clark: Agent uploaded: image.png
+URL: https://simplegrowthsystems.zendesk.com/attachments/token/pZtqukYOE5tC1klQ6AkkRvG9U/?name=image.png
+Type: image/png
+Size: 39173
+(2024-06-13 16:11:45) Visitor 8941852: ok
+(2024-06-13 16:12:05) Visitor 8941852: sound like a plan what about the newsletter ?
+(2024-06-13 16:12:25) Samuel Clark: Newsletter is a private automation so it is not visible to you.
+(2024-06-13 16:12:30) Visitor 8941852: I already have all the documents ready to go
+(2024-06-13 16:12:44) Visitor 8941852: can you turn it on?
+(2024-06-13 16:13:08) Samuel Clark: Sure you want me to turn just the July or all the sequences for Newsletter?
+(2024-06-13 16:13:25) Visitor 8941852: all of them please
+(2024-06-13 16:13:36) Samuel Clark: Thanks for confirming.
+(2024-06-13 16:13:49) Visitor 8941852: I just send June Manually
+(2024-06-13 16:15:00) Samuel Clark: Yeah, I saw that in one of the contact examples.
+(2024-06-13 16:15:15) Samuel Clark: I have turned the Newsletter automation Live
+(2024-06-13 16:15:27) Visitor 8941852: when do they go out?
+(2024-06-13 16:15:53) Visitor 8941852: is there an specific day?
+(2024-06-13 16:16:09) Samuel Clark: They are sent out on the 1st of every month
+(2024-06-13 16:16:17) Visitor 8941852: ok perfect
+(2024-06-13 16:16:20) Visitor 8941852: thatnks
+(2024-06-13 16:16:23) Visitor 8941852: thanks
+(2024-06-13 16:16:32) Samuel Clark: Is there anything else I can assist you with?
+(2024-06-13 16:16:42) Visitor 8941852: that is all Thanks
+(2024-06-13 16:16:50) Samuel Clark: Awesome.
+(2024-06-13 16:16:55) Samuel Clark: Thank you for contacting Simple Growth Systems Chat Support. Have a great rest of your day!
+================================================================================
+Timestamp: 2024-06-12T18:49:58Z
+Unread:false
+Visitor ID: 9245058.1MEmn1Cp32nMirw
+Visitor Name: Rachel Post
+Visitor Email: rachel@endlesssummerlawns.com
+Visitor Notes: 
+IP: 174.44.236.156
+Country Code: US
+Country Name: United States
+Region: New Jersey
+City: Blairstown
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Platform: Mac OS
+Browser: Chrome
+
+(2024-06-12 18:49:58) Visitor 19194153: Hello! We're having a problem with a SimpleGrowth form
+(2024-06-12 18:50:17) Dave Miller: Hi, I'm Dave from the SimpleGrowth Systems support team.
+(2024-06-12 18:50:33) Rachel Post: Hi Dave, I'm Rachel from Endless Summer Lawn Care in NJ
+(2024-06-12 18:50:56) Dave Miller: Hey, Rachel!
+(2024-06-12 18:51:09) Dave Miller: Can you please elaborate the problem you are facing with the Forms?
+(2024-06-12 18:51:15) Rachel Post: Sure!
+(2024-06-12 18:51:21) Rachel Post: So it this form: 
+20. Sales - SimpleGrowth Credit Card Update V3 Form : Marketplace (3/2/2022 5:53 PM)
+(2024-06-12 18:51:43) Rachel Post: Seems like people are struggling with it. The status we are getting is Error, which I've never seen before
+(2024-06-12 18:52:33) Rachel Post: I tried it myself and it was fine, but we've had 3 people in the last couple days not be able to do their card info. And I think they see it as having gone through, but there is no card info on file. And we get like 5 alerts that the customer updated the card, but then nothing is there
+(2024-06-12 18:53:06) Rachel Post: Visitor uploaded: Screenshot-2024-06-12-at-2.52.53-PM.png
+URL: https://simplegrowthsystems.zendesk.com/attachments/token/KcXyU60XLJgHMlFanxmZo63sI/?name=Screenshot-2024-06-12-at-2.52.53-PM.png
+Type: image/png
+Size: 115947
+(2024-06-12 18:54:03) Dave Miller: Thank you for explaining the situation so precisely!
+(2024-06-12 18:54:06) Dave Miller: Let me quickly check this.
+(2024-06-12 18:54:17) Rachel Post: I try! Haha. Okay thank you.
+(2024-06-12 18:57:57) Dave Miller: I will need to discuss this with our development team, they will be able to find the reason for the error.
+(2024-06-12 18:58:20) Rachel Post: Okay, that sounds good. Thanks for looking into it for me.
+(2024-06-12 18:58:27) Dave Miller: I'll get back to you via email as soon as I have an update from them.
+(2024-06-12 18:58:36) Dave Miller: Apart from this, is there anything else I can help you with?
+(2024-06-12 18:58:40) Rachel Post: That's all!
+(2024-06-12 18:59:07) Dave Miller: It was lovely talking to you Rachel, Have a wonderful day ahead!
+(2024-06-12 18:59:16) Rachel Post: You too, thanks!
+================================================================================
+Timestamp: 2024-06-11T16:19:56Z
+Unread:false
+Visitor ID: 9245058.1MDmmqmfaBvqMHr
+Visitor Name: Visitor 85005647
+Visitor Email: 
+Visitor Notes: 
+IP: 136.35.36.253
+Country Code: US
+Country Name: United States
+Region: Kansas
+City: Kansas City
+User Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Platform:  ChromeOS
+Browser: Chrome
+
+(2024-06-11 16:19:56) Visitor 85005647: Hi guys,  Benjamin here.  I've updated the email for the upsell that's set to out tomorrow.  Here's a link to the document.  The first email already went out.  The second one is written, and the third one hasn't been written yet.  Can we get this set up so it sends tomorrow?
+(2024-06-11 16:19:59) Visitor 85005647: https://docs.google.com/document/d/1gWqqMMVqPRlMOfRUIZnzg1QaBfeJnsQLFtYIw6tga3k/edit?usp=sharing
+(2024-06-11 16:20:14) Dave Miller: Hi, I'm Dave from the SimpleGrowth Systems support team.
+(2024-06-11 16:20:35) Visitor 85005647: The upsell is called:  SIMPLEGROWTH - FERTILIZATION PROGRAM EMAIL LINK UPSELL (Customized)
+(2024-06-11 16:22:11) Dave Miller: Hey Ben, please give me a couple of minutes and I'll get this done.
+(2024-06-11 16:23:52) Visitor 85005647: Excellent.  I need to log off now.  Please email me when it's good to go and I'll test it.  Thanks so much!  Ben
+(2024-06-11 16:24:23) Dave Miller: I checked the Google Document that you have shared, But It seems the content is broken.
+================================================================================
+Timestamp: 2024-06-11T14:22:19Z
+Unread:false
+Visitor ID: 9245058.1MDmmq0U0IeU6ft
+Visitor Name: Ronald Waugh
+Visitor Email: ronald@safesprayllc.com
+Visitor Notes: 
+IP: 66.168.227.81
+Country Code: US
+Country Name: United States
+Region: Alabama
+City: Opelika
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Platform: Windows
+Browser: Chrome
+
+(2024-06-11 14:22:18) Visitor 56495582: We just signed up with SimpleEstimate.  Our goal was for our sales team to use this system from a desktop to measure lawns.  I do not see how to do this from https://app.simpleestimatesystems.com/home
+(2024-06-11 14:22:49) Dave Miller: Hi, I'm Dave from the SimpleGrowth Systems support team.
+(2024-06-11 14:23:37) Ronald Waugh: Hey Dave, I'm Ron with SafeSpray Pest Control. I'm new to SimpleEstimate.
+(2024-06-11 14:24:28) Dave Miller: Hey Ron!
+(2024-06-11 14:24:38) Dave Miller: Are you able to log into the account?
+(2024-06-11 14:24:54) Dave Miller: Please use the below link:  
+  
+https://app.simpleestimatesystems.com/
+(2024-06-11 14:25:27) Ronald Waugh: Yes, I'm in the account.
+(2024-06-11 14:25:53) Dave Miller: This account will show you the data that the client has measured.
+(2024-06-11 14:26:18) Dave Miller: https://www.simpleestimatesystems.com/safespray-pest-control-estimate-lawn/  
+  
+This is the plugin link that you can use to measure the lawn area.
+(2024-06-11 14:26:50) Dave Miller: You can add this link to your website and the clients/leads can measure the lawn area.
+(2024-06-11 14:29:37) Dave Miller: Hey, just checking if we are still connected.
+(2024-06-11 14:29:56) Ronald Waugh: Yes
+(2024-06-11 14:30:29) Dave Miller: Usually the SimpleEstimate Plugin is used by the customers but if you want the sales team to measure the lawn then they can use the above link.
+(2024-06-11 14:30:46) Ronald Waugh: We are not releasing this as of yet to clients/leads.  We want to use internally to measure lawns.  Can we use the same phone and email on multiple yards.
+(2024-06-11 14:32:45) Dave Miller: Yes, you can use the same phone number and email on multiple properties. But we would recommend using a fake email address so that the records are clear.
+(2024-06-11 14:33:17) Dave Miller: For example : Ron@testing.com or something like that. Its not mandatory to have a actual email address.
+(2024-06-11 14:33:38) Dave Miller: You can maybe use Clients name and @test.com at the end so if you want to search them in future it will be easy for you.
+(2024-06-11 14:33:45) Ronald Waugh: Perfect. That answers my question.
+(2024-06-11 14:34:13) Dave Miller: Apart from this, is there anything else I can help you with?
+(2024-06-11 14:34:36) Ronald Waugh: Nope. That helps us on the short term.  Thank you!
+(2024-06-11 14:35:11) Dave Miller: Perfect!
+(2024-06-11 14:35:29) Dave Miller: It was a pleasure talking to you Ron, Have a wonderful day!
+(2024-06-11 14:35:52) Ronald Waugh: Thank you Dave
+================================================================================
+Timestamp: 2024-06-10T20:55:28Z
+Unread:false
+Visitor ID: 9245058.1MCmmj9aki8S1qh
+Visitor Name: Rachel Post
+Visitor Email: rachel@endlesssummerlawns.com
+Visitor Notes: 
+IP: 174.44.236.156
+Country Code: US
+Country Name: United States
+Region: New Jersey
+City: Blairstown
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Platform: Mac OS
+Browser: Chrome
+
+(2024-06-10 20:55:28) Visitor 50232923: Hello! Rachel from Endless Summer Lawn Care in Sparta, NJ. Could you tell me when one of our automations goes out? I forget the name of it, but it's the NPS score one where customers do the survey and high scores are sent follow-up emails with google review links.
+(2024-06-10 20:56:25) Dave Miller: Hi, I'm Dave from the SimpleGrowth Systems support team.
+(2024-06-10 20:56:36) Rachel Post: Hi Dave
+(2024-06-10 20:57:34) Dave Miller: The automation name is this : 50. EXTERNAL - NET PROMOTER TO SOCIAL REVIEW - CLIENT - v3.2 (04/01/2021 at 10:20 AM)
+(2024-06-10 20:58:09) Dave Miller: Since this is a private automation, you won't be able to view or make any changes to it.
+(2024-06-10 20:58:56) Dave Miller: Currently, the automation is set to run on the below dates. Do let me know if you want to make any changes.
+(2024-06-10 20:58:56) Dave Miller: Agent uploaded: image.png
+URL: https://simplegrowthsystems.zendesk.com/attachments/token/EYujqNeLDKbFqISLUgNvhb2Wc/?name=image.png
+Type: image/png
+Size: 13283
+(2024-06-10 20:59:53) Rachel Post: Got it, thank you. Just wanted to know, but no changes needed right now.
+(2024-06-10 21:00:25) Dave Miller: Is there anything else I can help you with?
+(2024-06-10 21:00:50) Rachel Post: For the private automations, is there a calendar for that or a way I can view those somehow? Or can you send me them so I can add them to ur company calendar? I am adding these two now
+(2024-06-10 21:03:00) Dave Miller: This is the only private automation that has a run date others are event based automations.
+(2024-06-10 21:03:20) Rachel Post: okay got it. that helps. thanks.
+(2024-06-10 21:03:43) Rachel Post: looking at this one now, 7/14 is a Sunday this year.
+(2024-06-10 21:04:00) Rachel Post: We'll definitely want to change that
+(2024-06-10 21:04:41) Dave Miller: Sure, do you want it to run on the 15th or on 12th?
+(2024-06-10 21:04:53) Dave Miller: Or if you have any other run date?
+(2024-06-10 21:05:21) Rachel Post: Yeah, let's do 7/16 Tuesday
+(2024-06-10 21:05:30) Rachel Post: And the October one, too. Let me look
+(2024-06-10 21:05:57) Rachel Post: 10/15
+(2024-06-10 21:06:50) Dave Miller: I have updated both run dates. It will now run on 07/16 and 10/15.
+(2024-06-10 21:06:50) Dave Miller: Agent uploaded: image.png
+URL: https://simplegrowthsystems.zendesk.com/attachments/token/hPhYUDBEAtDE1Oam75sEj4Bve/?name=image.png
+Type: image/png
+Size: 10341
+(2024-06-10 21:07:16) Rachel Post: Great, thank you!
+(2024-06-10 21:07:41) Dave Miller: My pleasure! Apart from this, is there anything else I can help you with?
+(2024-06-10 21:07:53) Rachel Post: That's it, thanks so much!
+(2024-06-10 21:08:12) Dave Miller: It was lovely talking to you Rachel, have a wonderful day ahead!
+(2024-06-10 21:08:19) Rachel Post: you too, thanks!
+================================================================================
+Timestamp: 2024-06-10T20:35:28Z
+Unread:false
+Visitor ID: 9245058.1MCmmj25I43ByR2
+Visitor Name: Visitor 99449333
+Visitor Email: 
+Visitor Notes: 
+IP: 74.95.111.66
+Country Code: US
+Country Name: United States
+Region: Illinois
+City: Orland Park
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+Platform: Mac OS
+Browser: Chrome
+
+(2024-06-10 20:35:28) Visitor 99449333: Hi This is Vanessa from Taylor's Way. I just submitted a support request and noticed the option to live chat. We are experiencing an issue with our text automations not going out. We didn't change anything on our end so just seeing if you know what is going on
+(2024-06-10 20:35:59) Samuel Clark: Hey there! This is Samuel from SimpleGrowth Systems Chat Support.
+(2024-06-10 20:36:32) Samuel Clark: Sure I will help you with that
+(2024-06-10 20:36:46) Samuel Clark: Can you please help me with your email address?
+(2024-06-10 20:36:57) Visitor 99449333: info@taylorsway.com
+(2024-06-10 20:37:16) Samuel Clark: Thank you for the information.
+(2024-06-10 20:37:53) Samuel Clark: Allow me a few minutes while I retrieve the account details.
+(2024-06-10 20:38:09) Visitor 99449333: thank you
+(2024-06-10 20:40:01) Samuel Clark: Are you referring to the 20 days to close automation?
+(2024-06-10 20:40:50) Visitor 99449333: no, this would be for the simplegrowth contact ahead automation notifying clients that there services are scheduled the next busienss day
+(2024-06-10 20:41:00) Samuel Clark: Oh ok
+(2024-06-10 20:41:57) Samuel Clark: Can you please share a contact example for whom the texting did not trigger?
+(2024-06-10 20:42:08) Visitor 99449333: Summer Boyd would be an example
+(2024-06-10 20:42:19) Samuel Clark: Thank you for sharing this.
+(2024-06-10 20:42:51) Visitor 99449333: I am sure I can come up with a lot more, as no one who was scheduled for today, got texted yesterday, and those who are scheduled for tomorrow, did not get a text today.
+(2024-06-10 20:43:02) Visitor 99449333: it is also only the texts not going out, the emails have gone out
+(2024-06-10 20:43:27) Samuel Clark: Sure. I am checking that for you.
+(2024-06-10 20:46:05) Samuel Clark: Please stay online I am still checking
+(2024-06-10 20:46:12) Visitor 99449333: thanks
+(2024-06-10 20:48:47) Samuel Clark: Thank you for your patience.
+(2024-06-10 20:49:19) Samuel Clark: For the above client record the reason why the text did not get delivered is due to the below error message
+(2024-06-10 20:49:26) Samuel Clark: Failed to deliver message. Your message was flagged as objectionable by the carrier. To protect their subscribers, many carriers have implemented content or spam filtering.
+(2024-06-10 20:49:50) Visitor 99449333: why would that happen when the client has gone through the steps to opt in to receive text messages?
+(2024-06-10 20:50:19) Samuel Clark: For the rest it is working fine
+(2024-06-10 20:50:21) Samuel Clark: Agent uploaded: image.png
+URL: https://simplegrowthsystems.zendesk.com/attachments/token/WSvvbWTdH7LFk9Bt22IKE8L2E/?name=image.png
+Type: image/png
+Size: 66719
+(2024-06-10 20:50:56) Visitor 99449333: Most of those are going out as manual messages because the automation didn't work.
+(2024-06-10 20:51:59) Visitor 99449333: Betsy Endress would be an example of getting a service tomorrow but was not texted ahead
+(2024-06-10 20:52:11) Samuel Clark: Thanks for letting me know. I am checking that.
+(2024-06-10 20:52:32) Visitor 99449333: Becky Clinard would be another exmaple
+(2024-06-10 20:53:24) Samuel Clark: Agent uploaded: image.png
+URL: https://simplegrowthsystems.zendesk.com/attachments/token/wLoUWUfC9vyXKDkVQpu7aZVVR/?name=image.png
+Type: image/png
+Size: 62619
+(2024-06-10 20:55:34) Samuel Clark: We will need to investigate this further
+(2024-06-10 20:56:01) Samuel Clark: Is it okay if I can get back to you once we have investigated this via email?
+(2024-06-10 20:56:32) Visitor 99449333: yes that is fine. Today we will proceed with manually texting everyone ahead
+(2024-06-10 20:56:55) Samuel Clark: Thank you for confirming.
+(2024-06-10 20:57:19) Samuel Clark: Is there anything else I can assist you with?
+(2024-06-10 20:57:30) Visitor 99449333: not at this time. Thanks
+(2024-06-10 20:57:40) Samuel Clark: Thank you for contacting Simple Growth Systems Chat Support.
+(2024-06-10 20:57:47) Samuel Clark: Take care
+================================================================================
+Timestamp: 2024-06-07T15:05:15Z
+Unread:false
+Visitor ID: 9245058.1M9mmEa1wuUdK6J
+Visitor Name: Visitor 80104086
+Visitor Email: 
+Visitor Notes: 
+IP: 100.7.123.121
+Country Code: US
+Country Name: United States
+Region: Virginia
+City: Henrico
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Platform: Windows
+Browser: Chrome
+
+(2024-06-07 15:05:15) Visitor 80104086: Hi there! Happy Friday!
+(2024-06-07 15:05:41) Dave Miller: Hey, Happy Friday!!
+(2024-06-07 15:05:46) Dave Miller: I'm Dave from the SimpleGrowth Systems support team. How can I help?
+(2024-06-07 15:06:07) Visitor 80104086: Hi. This is Joanna with Stepping Stone Landscaping, joanna@steppingstoneva.com. Do you know if it's possible to run a report of who has a credit card on file?
+(2024-06-07 15:07:14) Dave Miller: Sure, I'll quickly check this.
+(2024-06-07 15:08:05) Visitor 80104086: Thanks so much
+(2024-06-07 15:16:04) Dave Miller: I tried to find if there are any reports to get this data but unfortunately, we don't have such reports. I'll need to check with our development team if we have any report or a workaround that would get the list of clients who have CC on file.
+(2024-06-07 15:17:47) Visitor 80104086: Thanks for checking. If there's any way to get this data it'd be really helpful.
+(2024-06-07 15:19:03) Dave Miller: You want to get a list of clients who have credit cards on file, right?
+(2024-06-07 15:19:13) Visitor 80104086: You can use that filter when looking at invoices... I just can't think of a streamlined way to look at that data. I could filter all invoices by active customers but that would still be a ton of invoices!
+(2024-06-07 15:19:28) Visitor 80104086: Yes, exactly. List of clients who have credit cards on file
+(2024-06-07 15:20:33) Dave Miller: Thanks for explaining. I'll get back to you via email once I have an update from our development team.
+(2024-06-07 15:20:59) Visitor 80104086: Thanks! Have a good day.
+(2024-06-07 15:21:17) Dave Miller: It was lovely talking to you Joanna, Have a wonderful day!
+================================================================================
+Timestamp: 2024-06-07T13:51:11Z
+Unread:false
+Visitor ID: 9245058.1Lvmk74Vvfdmgk3
+Visitor Name: Visitor 53568011
+Visitor Email: 
+Visitor Notes: 
+IP: 76.17.176.74
+Country Code: US
+Country Name: United States
+Region: Minnesota
+City: Minneapolis
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Platform: Windows
+Browser: Chrome
+
+(2024-06-07 13:51:11) Visitor 53568011: I need some help with the SA opt-in two way texting. I have some questions. Can you help with that?
+(2024-06-07 13:51:30) Dave Miller: Hi, I'm Dave from the SimpleGrowth Systems support team.
+(2024-06-07 13:52:12) Dave Miller: Sure, I can definitely help you with that.
+(2024-06-07 13:52:35) Dave Miller: Could you please help me with your name, email, and account name?
+(2024-06-07 13:53:39) Visitor 53568011: Michelle Blomquist pys@precisionyardservices.com
+(2024-06-07 13:53:54) Visitor 53568011: Precision Yard Services
+(2024-06-07 13:54:19) Dave Miller: Thanks for sharing the information.
+(2024-06-07 13:55:00) Dave Miller: Please let me know your questions, I'll try my best to get the answers.
+(2024-06-07 13:55:33) Visitor 53568011: ok, this might take a bit to type:) I want to makes sure I explain it correctly.
+(2024-06-07 13:55:45) Dave Miller: Sure, take your time.
+(2024-06-07 13:56:12) Visitor 53568011: Is there an automation that is sent out to leads when they are added to SA?
+(2024-06-07 13:57:03) Visitor 53568011: To get them to be opt-in to text messages?
+(2024-06-07 13:58:02) Dave Miller: Yes, there is an automation in place for Opt-in. This free automation includes two sequences: one sends the text opt-in form and email to new leads when they're created, and one is date-launched to send to all active clients and open leads on a day of your choosing.
+(2024-06-07 14:04:19) Dave Miller: Hey, just checking if we are still connected.
+(2024-06-07 14:04:25) Visitor 53568011: So, We have Home Advisor Leads that get entered to SA automatically. But we dont always contact them or even get ahold of them right away. Is there a way to delay the two text form email to be sent maybe 2 days later?  We dont want people to get an email from us asking to sign up for 2 way texting when they have no clue who we are.  But we want to make sure people  are getting the text message letting them know we sent them an estimate. I feel like we are kinda stuck and don't know what to do.   We also have our web form leads added directly to SA but we are not concerned about them getting the email form because they at least have reached out to us directly. I hope this make sense:)
+(2024-06-07 14:08:27) Dave Miller: Thank you for explaining the situation.
+(2024-06-07 14:09:14) Dave Miller: May I know how are the Home Advisor Leads are getting automatically added to the SA instance? Are they using any SA form?
+(2024-06-07 14:11:06) Visitor 53568011: Sorry I guess not automatically. When they come to my email , I enter them right away and my boss contacts them. He sometimes isn't in the office so it might be a day or so
+(2024-06-07 14:11:59) Dave Miller: In that case, I'll discuss this with our development team if we have any workaround for this. I'll get back to you via email once I have an update.
+(2024-06-07 14:12:00) Dave Miller: Sounds good?
+(2024-06-07 14:13:02) Visitor 53568011: that sounds great. I know our process probably isnt the norm:)
+(2024-06-07 14:13:44) Dave Miller: Perfect!
+(2024-06-07 14:13:56) Dave Miller: Apart from this, is there anything else I can help you with?
+================================================================================
+Timestamp: 2024-06-04T21:19:57Z
+Unread:false
+Visitor ID: 9245058.1M6mlojCIo80VjL
+Visitor Name: Valderi Leal
+Visitor Email: valderi@lealhomecleaning.com
+Visitor Notes: 
+IP: 73.223.168.43
+Country Code: US
+Country Name: United States
+Region: California
+City: Burlingame
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0
+Platform: Windows
+Browser: ChromiumEdge
+
+Message: Sorry! a lost my connection before save the links. can you resend it, please?
+I have the Admin for the website waiting for this today.
+================================================================================
+Timestamp: 2024-06-04T20:21:14Z
+Unread:false
+Visitor ID: 9245058.1M6mloKyjwCHMWf
+Visitor Name: Visitor 88412004
+Visitor Email: 
+Visitor Notes: 
+IP: 73.223.168.43
+Country Code: US
+Country Name: United States
+Region: California
+City: Burlingame
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0
+Platform: Windows
+Browser: ChromiumEdge
+
+(2024-06-04 20:21:14) Visitor 88412004: I have to edit these recurring services and sent to you by tomorrow.
+(2024-06-04 20:21:46) Dave Miller: Hi, I'm Dave from the SimpleGrowth Systems support team. I am happy to help.
+(2024-06-04 20:22:54) Dave Miller: No worries! you can email us at help@simplegrowthsystems.com with the recurring service names and we can update the Automstion for you.
+(2024-06-04 20:23:37) Dave Miller: Apart from this is there anything else I can help you with?
+(2024-06-04 20:25:49) Dave Miller: No rush, but I wanted to make sure we're still connected.
+(2024-06-04 20:27:49) Dave Miller: It looks like you are away from your screen. I'll wait for another 3 minutes before disconnecting this chat session. Please feel free to reply.
+(2024-06-04 20:30:36) Dave Miller: I'm disconnecting this chat due to inactivity. Please feel free to chat again. Thank you for contacting SimpleGrowth Systems support. Have a great rest of your day.
+================================================================================
+Timestamp: 2024-06-04T19:44:32Z
+Unread:false
+Visitor ID: 9245058.1M6mlo7DgETV8Js
+Visitor Name: Visitor 42061728
+Visitor Email: 
+Visitor Notes: 
+IP: 73.223.168.43
+Country Code: US
+Country Name: United States
+Region: California
+City: Burlingame
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0
+Platform: Windows
+Browser: ChromiumEdge
+
+(2024-06-04 19:44:31) Visitor 42061728: hi there
+(2024-06-04 19:44:56) Samuel Clark: Hey there! This is Samuel from SimpleGrowth Systems Chat Support. How can I help you today?
+(2024-06-04 19:45:09) Visitor 42061728: I need speak with someone on the phone. what is the best number to reach you?
+(2024-06-04 19:45:43) Samuel Clark: Sure I can help you with that
+(2024-06-04 19:45:50) Samuel Clark: Could you please help me with your name, email, account name?
+(2024-06-04 19:46:25) Visitor 42061728: Valderi Leal
+phone: 650-834-4033
+company: Leal Home Cleaning
+(2024-06-04 19:46:42) Samuel Clark: Thank you for the information.
+(2024-06-04 19:47:19) Samuel Clark: May I know what exactly is the query?
+(2024-06-04 19:49:38) Visitor 42061728: we still in the process of installing the automations
+and I need to add the lead capture on my websites. how this is done? do i need to hava a link for that?
+(2024-06-04 19:50:02) Samuel Clark: Sure let me check that for you.
+(2024-06-04 19:50:10) Samuel Clark: Allow me a few minutes while I retrieve the account details.
+(2024-06-04 19:50:19) Visitor 42061728: thanks!
+(2024-06-04 19:52:27) Samuel Clark: Thank you for your patience.
+(2024-06-04 19:52:46) Samuel Clark: I am sharing the embedded code that needs to be added to your website
+(2024-06-04 19:53:00) Samuel Clark: <iframe id="saFormsIframe" src="https://my.serviceautopilot.com/v3/ViewForm?id=cce9f66c-d1ac-4325-851d-e3da38856afd&websiteHost=1" width="100%" height="786" scrolling="auto" frameborder="0" style="overflow-y:visible;"></iframe>
+(2024-06-04 19:53:45) Samuel Clark: And here is the help article for the same - https://help.simplegrowthsystems.com/hc/en-us/articles/7763164580884-How-to-add-a-V3-Website-Lead-Capture-Form-to-Website
+(2024-06-04 19:54:36) Samuel Clark: Here is the Hosted Page of your Website Lead Capture Form - https://my.serviceautopilot.com/v3/ViewForm?id=cce9f66c-d1ac-4325-851d-e3da38856afd
+(2024-06-04 19:54:55) Visitor 42061728: it can be added to multiple webisites & facebook?
+(2024-06-04 19:55:52) Samuel Clark: You can use the hosted URL on your Facebook post
+(2024-06-04 19:56:13) Samuel Clark: And you can use the Embedded code on multiple websites
+(2024-06-04 19:58:06) Samuel Clark: Are we still connected?
+(2024-06-04 19:58:29) Visitor 42061728: thanks!
+any questions i will be in touch.
+(2024-06-04 19:58:38) Samuel Clark: I have question for you
+(2024-06-04 19:58:47) Visitor 42061728: ok
+(2024-06-04 19:59:02) Samuel Clark: I have been following up with you regarding the Welcome and follow up automation
+(2024-06-04 19:59:22) Samuel Clark: Initially, based on the original request, we had configured the follow-ups for 15, 30, and 45 days. However, the document content has been updated to reflect the 30, 60, and 90-day intervals.
+(2024-06-04 20:00:26) Samuel Clark: Please let us know if you prefer to revert to the 15, 30, and 45-day configurations. If so, could you update the documents accordingly and let us know?
+(2024-06-04 20:01:16) Visitor 42061728: as most of our client in recurring are biweekly and monthly plan and believe 30, 60 & 90 is ok
+(2024-06-04 20:01:29) Samuel Clark: Thank you for confiirming
+(2024-06-04 20:01:54) Samuel Clark: Also, we would need the service names for which you want the follow-up emails to be sent out to turn the automation Live.
+(2024-06-04 20:02:10) Visitor 42061728: regard the employee emails, can i change it later?
+(2024-06-04 20:03:20) Visitor 42061728: we have a 2 VA's in training and need to update email by department later on
+(2024-06-04 20:04:03) Samuel Clark: You can add employee emails later
+(2024-06-04 20:04:54) Visitor 42061728: for now for fallow up calls text and emails Najah@lealhomecleaning.com
+(2024-06-04 20:05:30) Samuel Clark: Thank you for sharing this. I will update the 20 days to Close automation
+(2024-06-04 20:05:56) Samuel Clark: For Welcome and Follow-up automations we would need the service names for which you want the follow-up emails to be sent out to turn the automation Live.
+(2024-06-04 20:07:16) Visitor 42061728: this will be all the services we offers or only the ones we want to do the following up on it?
+(2024-06-04 20:08:24) Samuel Clark: We need the recurring service names
+(2024-06-04 20:08:55) Visitor 42061728: ok
+just a minute...
+(2024-06-04 20:09:16) Samuel Clark: Sure
+================================================================================
+Timestamp: 2024-06-04T16:24:31Z
+Unread:false
+Visitor ID: 9245058.1M6mlmo3S0ugO2u
+Visitor Name: Visitor 75382182
+Visitor Email: 
+Visitor Notes: 
+IP: 113.192.47.210
+Country Code: PK
+Country Name: Pakistan
+Region: Punjab
+City: Lahore
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Platform: Windows
+Browser: Chrome
+
+(2024-06-04 16:24:30) Visitor 75382182: Hello
+(2024-06-04 16:24:47) Visitor 75382182: Hello Samuel
+(2024-06-04 16:25:01) Samuel Clark: Hello
+(2024-06-04 16:25:08) Visitor 75382182: david@potomaclawn.com
+(2024-06-04 16:25:15) Visitor 75382182: This is my account email
+(2024-06-04 16:25:26) Visitor 75382182: That I've on simple estimates systems
+(2024-06-04 16:25:45) Samuel Clark: Thank you for the information.
+(2024-06-04 16:25:53) Samuel Clark: How may I help you today?
+(2024-06-04 16:25:54) Visitor 75382182: I just want to know how can I integrate the form with a CRM (Go High Level)
+(2024-06-04 16:26:48) Visitor 75382182: Moreover, are there any tutorials that can help me understanding the platform? If I want to make any changes in the forms or things that are there on my account.
+(2024-06-04 16:27:14) Samuel Clark: If you are referring to the SimpleEstimate tool then currently it can only be integrated with Service Autopilot
+(2024-06-04 16:27:32) Visitor 75382182: Service autopilot?
+(2024-06-04 16:27:51) Samuel Clark: Yes only Service Autopilot
+(2024-06-04 16:28:05) Visitor 75382182: what is service autopilot?
+(2024-06-04 16:28:37) Samuel Clark: That is a CRM
+(2024-06-04 16:29:02) Visitor 75382182: this is my website: potomaclawn.com
+(2024-06-04 16:29:28) Visitor 75382182: I believe I've SIMPLE ESTIMATES form on my website
+(2024-06-04 16:29:52) Samuel Clark: Can you please help me with your name for my records?
+(2024-06-04 16:30:12) Visitor 75382182: Zee
+(2024-06-04 16:30:41) Samuel Clark: Yes that is the SimpleEstimate tool on the website
+(2024-06-04 16:31:09) Visitor 75382182: How can I make changes with it? Any tutorials that can help me out?
+(2024-06-04 16:31:15) Visitor 75382182: Zee
+(2024-06-04 16:31:35) Samuel Clark: What changes do you want to make to it?
+(2024-06-04 16:32:16) Visitor 75382182: some changes in the fields of the form.
+(2024-06-04 16:32:53) Samuel Clark: Unfortunately you won't be able to make changes to it
+(2024-06-04 16:32:59) Visitor 75382182: y
+(2024-06-04 16:33:16) Samuel Clark: Any specific request has to come from the account owner
+(2024-06-04 16:33:42) Samuel Clark: Then that will be discussed with the development team
+(2024-06-04 16:33:48) Visitor 75382182: ok
+(2024-06-04 16:34:01) Visitor 75382182: how the form is placed on the website?
+(2024-06-04 16:34:03) Samuel Clark: Is there anything else I can assist you with?
+(2024-06-04 16:34:12) Visitor 75382182: What if I want to place the form on a different website page?
+(2024-06-04 16:35:03) Samuel Clark: We have shared the necessary information with the account owner. You can reach out to them for further information
+(2024-06-04 16:35:33) Visitor 75382182: I'm logged into the account already
+(2024-06-04 16:35:44) Visitor 75382182: I'm handling the Online Business Management
+(2024-06-04 16:36:24) Visitor 75382182: I'm in https://app.simpleestimatesystems.com/
+(2024-06-04 16:36:45) Samuel Clark: For security reasons, I need confirmation from the business owner to share the details
+(2024-06-04 16:36:58) Visitor 75382182: What details u need?
+(2024-06-04 16:37:14) Visitor 75382182: Is there any way we can chat directly through the account?
+(2024-06-04 16:37:30) Samuel Clark: Authorization from the Business owner
+(2024-06-04 16:37:48) Samuel Clark: No there is no such option
+(2024-06-04 16:38:05) Visitor 75382182: Great system you guys have
+(2024-06-04 16:38:15) Visitor 75382182: I can't event chat directly through the account
+(2024-06-04 16:38:56) Samuel Clark: Unfortunately, we do not have that feature
+(2024-06-04 16:39:23) Visitor 75382182: Any tutorials that can help me with understanding the things?
+(2024-06-04 16:39:52) Samuel Clark: I can arrange a call back for you. Will that work?
+(2024-06-04 16:40:03) Visitor 75382182: That would be great
+(2024-06-04 16:40:10) Samuel Clark: Awesome.
+(2024-06-04 16:40:22) Samuel Clark: Can you pleas share your contact information?
+(2024-06-04 16:40:33) Visitor 75382182: +923034147742
+(2024-06-04 16:41:05) Samuel Clark: Great. I will forward this request to the concerned team.
+(2024-06-04 16:41:13) Visitor 75382182: Thanku
+(2024-06-04 16:41:18) Samuel Clark: Is there anything else I can assist you with?
+(2024-06-04 16:41:24) Visitor 75382182: They'll guide me through everything?
+(2024-06-04 16:41:33) Samuel Clark: Of course they will
+(2024-06-04 16:41:42) Visitor 75382182: About the platform? How does it work? How can I make changes and integrations
+(2024-06-04 16:41:46) Visitor 75382182: Sounds great
+(2024-06-04 16:41:50) Visitor 75382182: Thank you so much
+(2024-06-04 16:42:00) Samuel Clark: Happy to help
+(2024-06-04 16:42:13) Visitor 75382182: Thanks again
+(2024-06-04 16:42:23) Visitor 75382182: Till when they'll be calling?
+(2024-06-04 16:42:25) Samuel Clark: No problem
+(2024-06-04 16:42:30) Samuel Clark: Thank you for contacting SimpleEstimate Chat support. Have a great day and stay safe!
+(2024-06-04 16:42:46) Visitor 75382182: Any idea when they'll be calling me?
+(2024-06-04 16:42:59) Visitor 75382182: expected time of call?
+(2024-06-04 16:43:16) Samuel Clark: Once the chat is done I will be forwarding the request.
+(2024-06-04 16:43:25) Samuel Clark: You may expect a call anytime soon.
+(2024-06-04 16:43:40) Visitor 75382182: ok
+(2024-06-04 16:43:46) Visitor 75382182: today, right?
+(2024-06-04 16:44:30) Samuel Clark: That I won't be able to commit. But you can expect it anytime soon
+(2024-06-04 16:44:44) Visitor 75382182: ok
+(2024-06-04 16:44:47) Visitor 75382182: thanks
+(2024-06-04 16:44:55) Samuel Clark: Welcome
+(2024-06-04 16:45:06) Samuel Clark: Is there anything else I can assist you with?
+(2024-06-04 16:45:20) Visitor 75382182: no that's all, thanku
+(2024-06-04 16:45:34) Samuel Clark: Thank you for contacting SimpleEstimate Chat support. Have a great day and stay safe!
+================================================================================
+Timestamp: 2024-06-04T16:07:55Z
+Unread:false
+Visitor ID: 9245058.1M6mlmgpDfV0316
+Visitor Name: Visitor 29256550
+Visitor Email: 
+Visitor Notes: 
+IP: 100.7.123.121
+Country Code: US
+Country Name: United States
+Region: Virginia
+City: Henrico
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Platform: Windows
+Browser: Chrome
+
+(2024-06-04 16:07:54) Visitor 29256550: Good Afternoon! How do we change the copy that's in the auto-texts tied to 20 DTC? This is Joanna Nelson with Stepping Stone Landscaping. Joanna@steppingstoneva.com
+(2024-06-04 16:08:45) Dave Miller: Hi, I'm Dave from the SimpleGrowth Systems support team.
+(2024-06-04 16:09:10) Visitor 29256550: Hey Dave
+(2024-06-04 16:09:38) Dave Miller: Just to clarify, you want to change the text content for 20DTC, right?
+(2024-06-04 16:11:07) Visitor 29256550: Yes please... with the new 2-way texting rules we'd like to stop referencing our main business number 804-338-6529 to text.
+(2024-06-04 16:13:29) Visitor 29256550: Maybe in the estimate follow up texts wherever we're telling a client to text us we can say, "...please text us back at this number or call us at 804-338-6529". Right now it sounds like we want them to text our main business number 804-338-6529 which they can currently do, but we're probably going to stop that due to the new rules.
+(2024-06-04 16:13:51) Visitor 29256550: Does that make sense?
+(2024-06-04 16:13:58) Dave Miller: Thank you for the explanation.
+(2024-06-04 16:14:23) Dave Miller: Yes, that makes absolute sense!
+(2024-06-04 16:15:16) Visitor 29256550: Thanks!
+(2024-06-04 16:17:42) Dave Miller: Please give me a couple of minutes, while I edit the text document.
+(2024-06-04 16:17:52) Visitor 29256550: Thanks!
+(2024-06-04 16:19:51) Dave Miller: Does this look good?
+(2024-06-04 16:19:51) Dave Miller: Agent uploaded: image.png
+URL: https://simplegrowthsystems.zendesk.com/attachments/token/WoRywMwiPiGpG0bFSE3hykZHQ/?name=image.png
+Type: image/png
+Size: 17297
+(2024-06-04 16:22:03) Dave Miller: I believe this is what you are expecting.
+(2024-06-04 16:22:03) Dave Miller: Agent uploaded: image.png
+URL: https://simplegrowthsystems.zendesk.com/attachments/token/khCHjiTd2q2YvfnqTfVZuBz87/?name=image.png
+Type: image/png
+Size: 17942
+(2024-06-04 16:22:18) Dave Miller: Please confirm so that I can make changes to all the text documents.
+(2024-06-04 16:23:38) Visitor 29256550: I am looking now!
+(2024-06-04 16:25:31) Dave Miller: Sure, let me know if this works.
+(2024-06-04 16:26:23) Visitor 29256550: Thanks, I think that will work! Are there any other 20 DTC auto-texts that mention text messages to us? If so, we'd like them to be updated as well.
+(2024-06-04 16:27:13) Dave Miller: Yes, there are 4 text messages that are active in 20DTC, I'll update the rest of them as well, give me a minute.
+(2024-06-04 16:27:59) Visitor 29256550: Thank you Dave!
+(2024-06-04 16:33:04) Dave Miller: I have updated 3 text documents, in the 4th one the text says to call on the number, So we don't need to change that right? Or should I update that as well?
+(2024-06-04 16:33:05) Dave Miller: Agent uploaded: image.png
+URL: https://simplegrowthsystems.zendesk.com/attachments/token/qp8xch1gdsBK79ZoXVmHKFkAl/?name=image.png
+Type: image/png
+Size: 13660
+(2024-06-04 16:34:10) Visitor 29256550: Right, you can leave the 4th on as is. I appreciate it!
+(2024-06-04 16:34:17) Dave Miller: Perfect!
+(2024-06-04 16:34:28) Dave Miller: Apart from this, is there anything else I can help you with?
+(2024-06-04 16:35:05) Visitor 29256550: On the subject of texting, do you know if it actually works to text clients from the SA mobile app? I've tested it and the app says the text was sent successfully, but I have not received the text on my personal cell #.
+(2024-06-04 16:36:58) Dave Miller: Let me quickly check this with our team.
+(2024-06-04 16:40:01) Dave Miller: May I know which contact record/client you used for the test?
+(2024-06-04 16:40:45) Visitor 29256550: 12/23 Test
+(2024-06-04 16:45:22) Dave Miller: The number you are trying for testing "703-850-5180" has been opted out from your system. So you would need to correct that before attempting the test. Any account that uses your number "703-850-5180" needs to be opted in.
+(2024-06-04 16:46:56) Visitor 29256550: Gotcha. I'm opted in on the 12/23 Test account but forgot I also have my personal # on other test accounts I was playing with.
+(2024-06-04 16:47:40) Dave Miller: You will need to opt in from all the accounts that you use for testing and it should work as expected.
+(2024-06-04 16:47:56) Visitor 29256550: I'll look through those other accounts and make sure I'm opted in. (The SA mobile app still told me the text was sent successfully which is unfortunate, but I know that's an SA problem!)
+(2024-06-04 16:48:29) Visitor 29256550: Thanks for your help today, I think that was it!
+(2024-06-04 16:48:56) Dave Miller: My pleasure!
+(2024-06-04 16:49:13) Dave Miller: It was lovely talking to you Joanna, Have a wonderful day!
+(2024-06-04 16:50:16) Visitor 29256550: Thanks, you too!
+================================================================================
+Timestamp: 2024-06-03T19:37:08Z
+Unread:false
+Visitor ID: 9245058.1M5mledFXQn5g2b
+Visitor Name: Benjamin
+Visitor Email: benjamin@benjaminlawn.com
+Visitor Notes: 
+IP: 136.35.36.253
+Country Code: US
+Country Name: United States
+Region: Kansas
+City: Kansas City
+User Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Platform:  ChromeOS
+Browser: Chrome
+
+(2024-06-03 19:37:08) Visitor 95864038: Hey, Benjamin here.  Is there a way to send a one-off NPS survey?  I'd like to send one to myself to see how it works.  We have a client that says the link isn't working for her, but I clicked the link in her email and it came right up.
+(2024-06-03 19:37:32) Dave Miller: Hi, I'm Dave from the SimpleGrowth Systems support team.
+(2024-06-03 19:38:29) Dave Miller: Thanks for explaining the situation, Ben
+(2024-06-03 19:41:54) Dave Miller: Thank you for your patience.
+(2024-06-03 19:42:17) Dave Miller: I have created a test tag "5C-NPS to SR-Send Survey", which can help you trigger the NPS automation and check the links.
+(2024-06-03 19:42:49) Benjamin: Ok, cool.  How do I do it?
+(2024-06-03 19:44:10) Dave Miller: You can apply "5C-NPS to SR-Send Survey" tag to your contact record and it should trigger the NPS automation.
+(2024-06-03 19:44:40) Benjamin: ok, testing now
+(2024-06-03 19:45:28) Dave Miller: Sure, I also sent myself the NPS email, and the links seem to be working.
+(2024-06-03 19:46:03) Benjamin: Is that pretty much instant?  Also, when testing, does it take into consideration the "rules" that we have set up like no more than every 90 days?
+(2024-06-03 19:47:41) Dave Miller: First you will get the Form email, you can submit Promoter score and after 3-4 minutes you will get the other email which contains the links.
+(2024-06-03 19:48:50) Dave Miller: And it should be instant because this Is a test tag. It will not require the rules/conditions.
+(2024-06-03 19:49:40) Benjamin: Ok, cool.  That's a big help.  Gotta run.  Thanks as always!
+================================================================================
+Timestamp: 2024-05-31T13:48:55Z
+Unread:false
+Visitor ID: 9245058.1M2mlA3ijP8cPsR
+Visitor Name: Visitor 97273439
+Visitor Email: 
+Visitor Notes: 
+IP: 136.35.36.253
+Country Code: US
+Country Name: United States
+Region: Kansas
+City: Kansas City
+User Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Platform:  ChromeOS
+Browser: Chrome
+
+(2024-05-31 13:48:54) Visitor 97273439: Good morning!  Benjamin Lawn here.  Just following up on the upsell that we were figuring out yesterday.
+(2024-05-31 13:49:51) Dave Miller: Hey Benjamin, I was just writing an email to you.
+(2024-05-31 13:51:04) Dave Miller: I got the approval from our development team and I have created a completely new upsell for Fertilization Program.
+(2024-05-31 13:51:30) Visitor 97273439: Ok, awesome!  Thank you.  Is there anything that I need to do?
+(2024-05-31 13:52:03) Dave Miller: The automation is named as "SIMPLEGROWTH - FERTILIZATION PROGRAM EMAIL LINK UPSELL (Customized)".
+(2024-05-31 13:54:03) Dave Miller: Please review the automation and let me know if you need any changes.
+(2024-05-31 13:54:46) Dave Miller: I am sending a test email to you right now, Please review it.
+(2024-05-31 13:55:00) Visitor 97273439: I was just looking at it.  Looks good.  I see that the emails 2 and 3 are not correct, but I assume that's because I haven't written them yet, lol.
+(2024-05-31 13:55:37) Dave Miller: Yes, I haven't edited the email 2 and 3 as the content was not present in the document you shared. Once that is ready you can reach out to us.
+(2024-05-31 13:55:43) Dave Miller: I am sending a test email for Email 1 to "benjamin@benjaminlawn.com".
+(2024-05-31 13:56:15) Visitor 97273439: great.  I'm ready.
+(2024-05-31 13:57:04) Dave Miller: Please check your inbox and let me know if there are any changes.
+(2024-05-31 14:01:26) Dave Miller: Hey Ben, are we still connected?
+(2024-05-31 14:02:35) Visitor 97273439: Yes.  All looks great!  I made a couple small edits to the document and we're in great shape.  So this is set to roll out on Monday?
+(2024-05-31 14:03:05) Dave Miller: Yes, it is all set to run on Monday.
+(2024-05-31 14:03:24) Visitor 97273439: Ok, awesome.  Thank you so much for your help!
+(2024-05-31 14:03:57) Dave Miller: My pleasure!
+(2024-05-31 14:04:05) Dave Miller: Apart from this, is there anything else I can help you with?
+================================================================================
+Timestamp: 2024-05-31T12:45:25Z
+Unread:false
+Visitor ID: 9245058.1M2ml9eAHmvKwQ7
+Visitor Name: Visitor 80089582
+Visitor Email: 
+Visitor Notes: 
+IP: 174.210.4.253
+Country Code: US
+Country Name: United States
+Region: Missouri
+City: St Louis
+User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36
+Platform: Android
+Browser: Chrome
+
+(2024-05-31 12:45:25) Visitor 80089582: Need help uploading my logo to my landing page
+(2024-05-31 12:45:37) Samuel Clark: Hey there! This is Samuel from SimpleGrowth Systems Chat Support.
+(2024-05-31 12:45:46) Samuel Clark: Surely I can help you with that
+(2024-05-31 12:46:02) Samuel Clark: Can you please share your company logo I can add that for you
+(2024-05-31 12:46:19) Visitor 80089582: Sure give me a few minutes
+(2024-05-31 12:46:54) Samuel Clark: Also for our records can you please help me with your name, email, and account name?
+(2024-05-31 12:48:26) Visitor 80089582: Plum Creek Lawncare
+(2024-05-31 12:48:31) Visitor 80089582: Matt Dickey
+(2024-05-31 12:48:39) Samuel Clark: Thank you for the information.
+(2024-05-31 12:48:40) Visitor 80089582: mdickey1984@gmail.com
+(2024-05-31 12:48:52) Visitor 80089582: Visitor uploaded: FB_IMG_1717159645445.jpg
+URL: https://simplegrowthsystems.zendesk.com/attachments/token/ak1KGuP8E1EQaxbeTsDQk8HN0/?name=FB_IMG_1717159645445.jpg
+Type: image/jpeg
+Size: 785516
+(2024-05-31 12:50:05) Samuel Clark: Thank you for sharing this. I will get this added to the landing page. This will take about 15 mins to get updated.
+(2024-05-31 12:50:28) Samuel Clark: You can test the landing page in sometime and the logo will reflect
+(2024-05-31 12:50:52) Visitor 80089582: Ok is there a app or something that I can add to my phone or should I just create a shortcut?
+================================================================================
+Timestamp: 2024-05-31T12:43:48Z
+Unread:false
+Visitor ID: 9245058.1M2ml9dRK8FDRAl
+Visitor Name: Plum Creek Lawncare 
+Visitor Email: mdickey1984@gmail.com
+Visitor Notes: 
+IP: 174.210.4.253
+Country Code: US
+Country Name: United States
+Region: Missouri
+City: St Louis
+User Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36
+Platform: Android
+Browser: Chrome
+
+(2024-05-31 12:43:47) Visitor 16500958: How can I upload my Logo for my landing page?   I don't currently have a website.
+(2024-05-31 12:44:31) Samuel Clark: Hey there! This is Samuel from SimpleGrowth Systems Chat Support. How can I help you today?
+================================================================================
+Timestamp: 2024-05-30T20:05:45Z
+Unread:false
+Visitor ID: 9245058.1M1ml362UUHfIY6
+Visitor Name: Visitor 25859099
+Visitor Email: 
+Visitor Notes: 
+IP: 136.35.36.253
+Country Code: US
+Country Name: United States
+Region: Kansas
+City: Kansas City
+User Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Platform:  ChromeOS
+Browser: Chrome
+
+(2024-05-30 20:05:44) Visitor 25859099: Hi there,  Benjamin Lawn here.  I just emailed, but I wanted to see if we could get an upsell to start tomorrow.
+(2024-05-30 20:06:14) Samuel Clark: Hey there! This is Samuel from SimpleGrowth Systems Chat Support.
+(2024-05-30 20:06:34) Samuel Clark: Yes we can run the upsell for tomorrow
+(2024-05-30 20:07:22) Visitor 25859099: Ok, excellent.  Do you need me to send you the document again?  I only have the first of the 3 emails ready, but I want to get it rolling ASAP.
+(2024-05-30 20:08:20) Samuel Clark: No Ben. Dave is already working on it and he will reply to you once he is done
+(2024-05-30 20:08:32) Samuel Clark: You have already shared the document
+(2024-05-30 20:09:09) Visitor 25859099: Ok great!  I just don't want to miss the deadline today.  I need to be away from my computer for a couple hours and I think you will close soon.  Is there anything that I need to be concerned about?
+(2024-05-30 20:09:57) Samuel Clark: Just a minute let me check the ticket if Dave has any questions for you.
+(2024-05-30 20:11:51) Samuel Clark: Thank you for your patience.
+(2024-05-30 20:12:55) Samuel Clark: We just wanted to know if you want to swap any of your existing upsell or if you want us to add a new upsell. As I can see you have already utilized 8 upsell options that you have as per your subscription
+(2024-05-30 20:14:08) Samuel Clark: I am just transferring the chat  to Dave as he has some questions for you
+(2024-05-30 20:14:19) Visitor 25859099: ok, sounds good.  Thank you!
+(2024-05-30 20:14:35) Dave Miller: Hey Benjamin!!
+(2024-05-30 20:14:46) Visitor 25859099: Hey Dave!  Thanks for your help on this
+(2024-05-30 20:15:31) Dave Miller: We see you have Spring Fertilization and Fall Fertilization Upsell, may I know which upsell do you want these for?
+(2024-05-30 20:16:00) Visitor 25859099: This is a new upsell.  I believe that we are only using 7/8 right now.
+(2024-05-30 20:17:55) Dave Miller: Below is the list of all the upsells which are already installed in your account.  
+  
+Fall Fertilization  
+Landscape Maintenance  
+Mosquito Control  
+Mowing Service  
+Mulch Installation  
+Spring Cleanup  
+Spring Fertilization
+(2024-05-30 20:18:10) Dave Miller: May I know which upsell do you want us to install?
+(2024-05-30 20:19:34) Dave Miller: For Fertilization we only have Spring and Fall upsells.
+(2024-05-30 20:19:53) Dave Miller: We can either add the documents and conditions to one of these if you want.
+(2024-05-30 20:20:08) Visitor 25859099: The new one will be called. Fert program steps 2 & 3/4.
+(2024-05-30 20:20:56) Visitor 25859099: I guess I'm a little confused.  I would like a completely new upsell, which would be number 8 of 8, and it is promoting our fertilizer program.
+(2024-05-30 20:25:32) Dave Miller: We can add fall or spring fertilization (an extra one). And run this document from that upsell. Creating a new upsell would take us some time, so it would not be possible to run tomorrow. Also, I would need to check it with our development team.
+(2024-05-30 20:26:56) Dave Miller: We can clone and create a new upsell but that can be done tomorrow, and we can set it up for Saturday or Monday as per your needs.
+(2024-05-30 20:32:05) Dave Miller: Hey, just checking if we are still connected.
+(2024-05-30 20:34:17) Visitor 25859099: just a sec
+(2024-05-30 20:39:55) Dave Miller: Hey Ben, Are we still connected?
+(2024-05-30 20:40:15) Visitor 25859099: yes  got a call  just a sec
+(2024-05-30 20:45:23) Dave Miller: Hey, just checking if we are still connected. I will have to end the chat if I don't get any reply in the next couple of minutes.
+(2024-05-30 20:45:48) Visitor 25859099: yes still here.  Just a sec
+(2024-05-30 20:49:06) Dave Miller: I have checked with our development team, we can get a customized upsell configured but we requested at least 24 hours notice. If you wish to get on a call to go over this request you can schedule a call via the below link.  
+  
+https://calendly.com/keionah/sg-help-30min
+(2024-05-30 20:51:01) Visitor 25859099: Ok, I'm back.  Sorry, I got a call that I needed to take.
+(2024-05-30 20:51:39) Visitor 25859099: I had an inactive upsell called Leaf Removal, but I think it was removed earlier this week.
+(2024-05-30 20:52:23) Visitor 25859099: I know it's the end of the day, and I apologize.  We'll pick this up tomorrow.  If we get it set up tomorrow, can it run on Monday?
+(2024-05-30 20:54:41) Dave Miller: I cannot promise this at the moment because I would need to check with our development team. I can get a confirmation by tomorrow morning.
+(2024-05-30 20:54:44) Dave Miller: Sounds good?
+(2024-05-30 20:55:02) Visitor 25859099: Perfect.  Thanks so much!  BTW, what are your hours?
+(2024-05-30 20:55:29) Dave Miller: Thanks for understanding Ben.
+(2024-05-30 20:55:47) Dave Miller: Our working hours are 8:00 am to 5:00 pm ET
+(2024-05-30 20:56:01) Visitor 25859099: Thanks!  Bye bye
+(2024-05-30 20:57:13) Dave Miller: It was a pleasure talking to you Ben, as always! Have a great day!
+================================================================================
+Timestamp: 2024-05-30T17:38:00Z
+Unread:false
+Visitor ID: 9245058.1M1ml28I1kdGnnI
+Visitor Name: Visitor 69376937
+Visitor Email: 
+Visitor Notes: 
+IP: 100.7.123.121
+Country Code: US
+Country Name: United States
+Region: Virginia
+City: Henrico
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Platform: Windows
+Browser: Chrome
+
+(2024-05-30 17:37:59) Visitor 69376937: Hello!
+(2024-05-30 17:38:10) Visitor 69376937: This is Joanna Nelson with Stepping Stone Landscaping
+(2024-05-30 17:38:48) Samuel Clark: Hey there this is Samuel from the SimpleGrowth Chat support
+(2024-05-30 17:38:56) Samuel Clark: How may I help you today?
+(2024-05-30 17:40:35) Visitor 69376937: Hi! You turned on the text consent automation for me on 5/16 but I turned it off to make some updates to our email & form first. Now I'm ready to turn it back on. Do I ONLY need to toggle the red switch in the top right corner, or also the ones that say "Wait until 12pm" and "Send Text Opt-In Email + Form"?
+(2024-05-30 17:41:15) Samuel Clark: Let me turn that ON for you Joanna
+(2024-05-30 17:41:53) Visitor 69376937: Thank you! I'm ready to turn them both on... the email to all the existing clients/leads can go out tomorrow 5/31
+(2024-05-30 17:42:38) Samuel Clark: I have turned it Live
+(2024-05-30 17:43:31) Samuel Clark: And adjusted the date for tomorrow
+(2024-05-30 17:43:48) Samuel Clark: It was set for today
+(2024-05-30 17:45:19) Visitor 69376937: Awesome, thanks Samuel! I think we're good to go then. I appreciate your help as always!
+(2024-05-30 17:45:34) Samuel Clark: Happy to help Joanna
+(2024-05-30 17:45:54) Samuel Clark: Thank you for your kind words. Appreciate it.
+(2024-05-30 17:46:20) Samuel Clark: Is there anything else I can assist you with?
+(2024-05-30 17:46:32) Visitor 69376937: That was it for today, thank you!
+(2024-05-30 17:46:48) Samuel Clark: Thank you for contacting Simple Growth Systems Chat Support. Have a great rest of your day!
+(2024-05-30 17:47:40) Samuel Clark: Bye
+================================================================================
+Timestamp: 2024-05-29T19:17:54Z
+Unread:false
+Visitor ID: 9245058.1M0mktLnAcYmawC
+Visitor Name: Visitor 89380168
+Visitor Email: 
+Visitor Notes: 
+IP: 136.35.36.253
+Country Code: US
+Country Name: United States
+Region: Kansas
+City: Kansas City
+User Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Platform:  ChromeOS
+Browser: Chrome
+
+(2024-05-29 19:17:54) Visitor 89380168: Hey there,  Benjamin Lawn here.  I know it's getting kind of late in the day, but is there time to set up an upsell to go out tomorrow?
+(2024-05-29 19:18:24) Samuel Clark: Hey there! This is Samuel from SimpleGrowth Systems Chat Support.
+(2024-05-29 19:18:58) Samuel Clark: Yes we can set up an upsell to go out for tomorrow
+(2024-05-29 19:19:29) Visitor 89380168: Ok excellent.  I'll get you all the info within the next 30 minutes.  Is that ok?
+(2024-05-29 19:19:44) Samuel Clark: Yes that will work
+(2024-05-29 19:20:05) Samuel Clark: You can send an email to the help desk with the info
+(2024-05-29 19:20:28) Visitor 89380168: Perfect.  I'll get right on that.  I'm signing off now.  Talk soon!
+(2024-05-29 19:20:55) Samuel Clark: Happy to help
+================================================================================
+Timestamp: 2024-05-28T16:40:07Z
+Unread:false
+Visitor ID: 9245058.1Lzmkit8X8Rwyb8
+Visitor Name: Visitor 24291497
+Visitor Email: 
+Visitor Notes: 
+IP: 136.35.36.253
+Country Code: US
+Country Name: United States
+Region: Kansas
+City: Kansas City
+User Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Platform:  ChromeOS
+Browser: Chrome
+
+(2024-05-28 16:40:06) Visitor 24291497: Hey there!  Benjamin here.  Would it be possible to get an upsell campaign geared up and ready to start tomorrow?  Here's a document with all the details.  Thank you!
+(2024-05-28 16:40:08) Visitor 24291497: https://docs.google.com/document/d/1GohuIQrHiVEdCQnkdGAF26hiPKUW0c_wOG8T-aC4QKU/edit?usp=sharing
+(2024-05-28 16:40:29) Dave Miller: Hi, I'm Dave from the SimpleGrowth Systems support team.
+(2024-05-28 16:42:29) Dave Miller: Hey Benjamin!!
+(2024-05-28 16:45:42) Dave Miller: I see you already have 8/8 upsells. I might need to check with our team if we can add additional upsells.
+(2024-05-28 16:49:23) Dave Miller: Hey, just checking if we are still connected.
+(2024-05-28 16:49:29) Visitor 24291497: Ok, good point.
+(2024-05-28 16:49:31) Visitor 24291497: Just a sec
+(2024-05-28 16:49:55) Visitor 24291497: The automating "pruning..." is just a place holder.  We can replace that one if possible.
+(2024-05-28 16:51:59) Visitor 24291497: Also the automation "LEAF CLEANUP..." is not an automation that we will be using.
+(2024-05-28 16:53:13) Dave Miller: Thanks for letting me know. I'll remove these 2 upsells and add the Landscape Maintenance upsell.
+(2024-05-28 16:54:10) Dave Miller: So the total upsells would be 7/8 upsells.
+(2024-05-28 16:54:15) Visitor 24291497: That's awesome!  Thank you.  Will it be ready to fire tomorrow morning?
+(2024-05-28 16:55:28) Dave Miller: I am currently installing and configuring the Landscape Maintenance Upsell.
+(2024-05-28 16:55:47) Dave Miller: Once it is configured it should be good to run tomorrow.
+(2024-05-28 16:56:31) Visitor 24291497: U da man!  Thanks as always!  👊
+(2024-05-28 16:56:55) Dave Miller: I'll send a confirmation email once the configuration and testing is completed. I'll also make the automation live.
+(2024-05-28 16:57:17) Dave Miller: Thanks for the kind words, Ben!!
+(2024-05-28 16:57:58) Visitor 24291497: Seriously, you guys are always so helpful and easy.  It's much appreciated.
+(2024-05-28 16:58:45) Dave Miller: We are glad we could be of help!
+(2024-05-28 16:59:22) Visitor 24291497: I'll look for your email.  Signing off now.  Have a great rest of your day!
+(2024-05-28 16:59:45) Dave Miller: It was a pleasure talking to you Ben, as always!! Have a wonderful day!
+================================================================================
+Timestamp: 2024-05-24T16:26:14Z
+Unread:false
+Visitor ID: 9245058.1Lvmk74Vvfdmgk3
+Visitor Name: Visitor 53568011
+Visitor Email: 
+Visitor Notes: 
+IP: 76.17.176.74
+Country Code: US
+Country Name: United States
+Region: Minnesota
+City: Minneapolis
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Platform: Windows
+Browser: Chrome
+
+(2024-05-24 16:26:14) Visitor 53568011: I have questions about the Text Op-In Assistant in SA Marketplace
+(2024-05-24 16:26:38) Aiden Scott: Hello! Aiden here from Simple Growth Systems Chat Support and I am happy to help.
+(2024-05-24 16:27:48) Aiden Scott: Sure! I will be happy to help you with your questions
+(2024-05-24 16:28:17) Visitor 53568011: Ok, If we add this automation.
+(2024-05-24 16:30:08) Visitor 53568011: We have have our website linked to add people as a lead. and we also add out Home Advisor leads right away. We don't always get to contacting them or maybe it isn't a good lead. Does this automation go out right away? I hope that make sense
+(2024-05-24 16:30:21) Aiden Scott: This is a free Automation which will send the text opt-in form to the new leads and also will send to all active clients and open leads on a day of your choosing.
+(2024-05-24 16:32:30) Aiden Scott: Thank you for your question! Right in this scenario, this Automation will trigger to all the new leads and who needs to Opt-in immediately.
+(2024-05-24 16:33:22) Visitor 53568011: So they will get an opt in email even if we haven't contacted them , right?
+(2024-05-24 16:33:34) Aiden Scott: That is right!
+(2024-05-24 16:34:30) Visitor 53568011: i am thinking that wouldn't be a good idea.
+(2024-05-24 16:34:37) Aiden Scott: They will get a Form email and once they fill out that form, they will beopted-in
+(2024-05-24 16:34:49) Aiden Scott: Absolutely!
+(2024-05-24 16:35:16) Aiden Scott: Can I quickly know your Name, Business Name and Email address?
+(2024-05-24 16:35:33) Aiden Scott: So if you want, I can install the Automation for you.
+(2024-05-24 16:35:42) Visitor 53568011: Precision Yard Services
+(2024-05-24 16:35:51) Visitor 53568011: Michelle Blomquist
+(2024-05-24 16:36:11) Visitor 53568011: PYS@precisionyardservices.com
+(2024-05-24 16:36:17) Aiden Scott: Thanks Michelle!
+(2024-05-24 16:37:23) Aiden Scott: Great! I have installed the Automation in your Instance. Since it is a public Automation, you are free to explore it.
+(2024-05-24 16:37:24) Visitor 53568011: I dont think we want to install it.  I think it would be weird if a got an email from a company i havent even talked to yet.
+(2024-05-24 16:38:48) Aiden Scott: Oh! No worries! You can keep it installed and in-case you want to switch it On, you can do so or you can email us at help@simplegrowthsystems,com and we can make it live for you.
+(2024-05-24 16:39:56) Aiden Scott: Hope this helps.
+(2024-05-24 16:40:10) Visitor 53568011: So if they are not opt in, they will not get the text message from us when we send an estimate, correct?
+(2024-05-24 16:41:30) Aiden Scott: That is correct Michelle.
+(2024-05-24 16:41:55) Visitor 53568011: ok thanks, Ill check it out
+(2024-05-24 16:42:06) Aiden Scott: Awesome!
+(2024-05-24 16:42:18) Aiden Scott: Apart from this is there anything else I can help with?
+(2024-05-24 16:42:29) Visitor 53568011: that's it
+(2024-05-24 16:42:35) Visitor 53568011: thanks
+================================================================================
+Timestamp: 2024-05-21T21:58:00Z
+Unread:false
+Visitor ID: 9245058.1LsmjgwK5K8YHhF
+Visitor Name: Benjamin B Brasel
+Visitor Email: benjamin@benjaminlawn.com
+Visitor Notes: 
+IP: 136.35.36.253
+Country Code: US
+Country Name: United States
+Region: Kansas
+City: Kansas City
+User Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Platform:  ChromeOS
+Browser: Chrome
+
+Message: Hey guys, this is probably a question for SA, but you guys are always so much more helpful, I thought I'd start with you.  We signed up for 2-way texting through SA so we could send texts as part of the 20-DTC automations.  The problem is, managing incoming texts from SA is really difficult.  The notifications get lost in the onslaught of incoming notifications in SA.  As a result, we are not timely in our replies, which is a problem.  How have you seen other companies handle this challenge?  Thank you!  Ben
+================================================================================
+Timestamp: 2024-05-21T17:47:20Z
+Unread:false
+Visitor ID: 9245058.1LsmjfI9iF0pPIQ
+Visitor Name: Visitor 21997012
+Visitor Email: 
+Visitor Notes: 
+IP: 136.35.36.253
+Country Code: US
+Country Name: United States
+Region: Kansas
+City: Kansas City
+User Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Platform:  ChromeOS
+Browser: Chrome
+
+(2024-05-21 17:47:19) Visitor 21997012: Hi there,  Benjamin lawn here.  We'd like our Mosquito Control upsell to go live if possible.  I've edited the documents and we're ready to have the first one send tomorrow (Wednesday 5/22) if possible.  The dates for the next 2 are June 5th and June 20th.
+(2024-05-21 17:47:55) Dave Miller: Hi Ben, I'm Dave from the SimpleGrowth Systems support team.
+(2024-05-21 17:48:46) Dave Miller: Sure, Let me quickly update the run dates and make the automation live.
+(2024-05-21 17:52:10) Dave Miller: I have updated the run dates to run on 05/22, 06/02 & 06/20 as requested.
+(2024-05-21 17:53:45) Dave Miller: I also tested the upsell by sending myself the emails and it looks good.
+(2024-05-21 17:54:08) Dave Miller: Do you want me to make any changes to the automation?
+(2024-05-21 17:57:19) Visitor 21997012: I think we're good as long as the target audience is the same as our previous upsells.  I know I want the first one to roll out tomorrow and I'll make sure the second two are just right before they fire off.  Thanks!
+(2024-05-21 18:00:10) Dave Miller: As far as I remember we usually restrict the entry for the people who had the service in 90 days and who already has the service right?
+(2024-05-21 18:01:44) Dave Miller: I have made the changes to the Mosquito Control upsell automation just like we did for previous upsells.
+(2024-05-21 18:03:02) Dave Miller: Hey, just checking if we are still connected.
+(2024-05-21 18:05:41) Visitor 21997012: Yes, still connected!  Sorry.
+(2024-05-21 18:06:11) Dave Miller: I have made the changes to the Mosquito Control upsell automation just like we did for previous upsells.
+(2024-05-21 18:06:22) Dave Miller: Apart from this, is there anything else I can help you with?
+(2024-05-21 18:06:30) Visitor 21997012: just a sec
+(2024-05-21 18:07:35) Dave Miller: Sure!
+(2024-05-21 18:09:02) Visitor 21997012: I think we're good to go!  Thanks so much!
+(2024-05-21 18:09:37) Dave Miller: Perfect! Apart for this, is there anything else I can help you with?
+(2024-05-21 18:09:51) Visitor 21997012: That's it!  Have a great day!
+(2024-05-21 18:10:23) Dave Miller: It was a pleasure talking to you Ben as always! Have a wonderful day!
+================================================================================
+Timestamp: 2024-05-16T18:13:08Z
+Unread:false
+Visitor ID: 9245058.1LnmiuKXMxGgK8c
+Visitor Name: Visitor 40439126
+Visitor Email: 
+Visitor Notes: 
+IP: 100.7.123.121
+Country Code: US
+Country Name: United States
+Region: Virginia
+City: Henrico
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Platform: Windows
+Browser: Chrome
+
+(2024-05-16 18:13:08) Visitor 40439126: Hi there!
+(2024-05-16 18:13:31) Samuel Clark: Hey there! This is Samuel from SimpleGrowth Systems Chat Support. How can I help you today?
+(2024-05-16 18:15:32) Visitor 40439126: Hey Samuel! I sent an email to the Help Desk about the new 2 way texting consent. Chad said there's a free automation with a form and document. Would you be able to help me get this set up for our company? We have automations but currently only use the ones that SG implemented so I'm not very familiar with setting them up.
+(2024-05-16 18:16:15) Samuel Clark: Sure let me check that for you
+(2024-05-16 18:16:29) Samuel Clark: Could you please help me with your name, email, and account name?
+(2024-05-16 18:16:51) Visitor 40439126: Joanna Nelson, joanna@steppingstoneva.com, Stepping Stone Landscaping
+(2024-05-16 18:17:07) Samuel Clark: Thank you for the information.
+(2024-05-16 18:17:23) Samuel Clark: Allow me a few minutes while I check this for you
+(2024-05-16 18:22:13) Samuel Clark: Thank you for your patience, Joanne. I will install the automation and get back to you via an email to confirm
+(2024-05-16 18:22:25) Samuel Clark: Will that work for you?
+(2024-05-16 18:23:40) Visitor 40439126: Yes, I think so! Do you have an overview of how the automation works for leads and existing clients? Is it going to contact all of our clients?
+(2024-05-16 18:24:40) Samuel Clark: I will share the information in the email with an overview of how the automation works
+(2024-05-16 18:24:49) Visitor 40439126: Great, thank you
+(2024-05-16 18:25:01) Samuel Clark: Is there anything else I can assist you with?
+(2024-05-16 18:25:07) Visitor 40439126: That was it for now. Thanks as always!
+(2024-05-16 18:25:21) Samuel Clark: Happy to help Joanne
+(2024-05-16 18:25:27) Samuel Clark: Thank you for contacting Simple Growth Systems Chat Support. Have a great rest of your day!
+================================================================================
+Timestamp: 2024-05-13T18:58:12Z
+Unread:false
+Visitor ID: 9245058.1LemhWLbtqxCe2Q
+Visitor Name: Dave Miller
+Visitor Email: dave.miller@simplegrowthsystems.com
+Visitor Notes: 
+IP: 182.70.112.155
+Country Code: IN
+Country Name: India
+Region: Maharashtra
+City: Mumbai
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Platform: Windows
+Browser: Chrome
+
+(2024-05-13 18:58:11) Dave Miller: Test
+(2024-05-13 18:58:30) Samuel Clark: Wassup
+================================================================================
+Timestamp: 2024-05-10T16:18:59Z
+Unread:false
+Visitor ID: 9245058.1LhmhyzWEG5DYB4
+Visitor Name: Visitor 58827748
+Visitor Email: 
+Visitor Notes: 
+IP: 98.4.75.1
+Country Code: US
+Country Name: United States
+Region: New York
+City: Niagara Falls
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Platform: Windows
+Browser: Chrome
+
+(2024-05-10 16:18:59) Visitor 58827748: Can you check to see if AI measurements was activated on my account. This is Healthylawn@roadrunner.com
+(2024-05-10 16:19:22) Dave Miller: Hi, I'm Dave from the SimpleGrowth Systems support team.
+(2024-05-10 16:19:29) Dave Miller: Sure, let me quickly check that.
+(2024-05-10 16:22:02) Dave Miller: Yes, the AI measuring feature is enabled for your account.
+(2024-05-10 16:22:19) Visitor 58827748: thankyou
+(2024-05-10 16:22:32) Dave Miller: Apart from this, is there anything else I can help you with?
+(2024-05-10 16:22:56) Visitor 58827748: where do i find my landing page
+(2024-05-10 16:25:12) Dave Miller: You should have got an automated email from us with the landing page URL.
+(2024-05-10 16:25:29) Dave Miller: Can you please confirm if the email was received?
+(2024-05-10 16:26:28) Visitor 58827748: i found it, thanks
+(2024-05-10 16:27:05) Dave Miller: Perfect!
+(2024-05-10 16:27:13) Dave Miller: Is there anything else I can assist you with?
+(2024-05-10 16:27:25) Visitor 58827748: no thanks
+(2024-05-10 16:27:36) Dave Miller: It was a pleasure talking to you. Have a wonderful day!
+(2024-05-10 16:27:46) Visitor 58827748: you too
+================================================================================
+Timestamp: 2024-05-09T20:55:53Z
+Unread:false
+Visitor ID: 9245058.1LamgwIFK3vfCLS
+Visitor Name: Visitor 42514703
+Visitor Email: 
+Visitor Notes: 
+IP: 64.234.248.45
+Country Code: US
+Country Name: United States
+Region: Colorado
+City: Loveland
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Platform: Windows
+Browser: Chrome
+
+(2024-05-09 20:55:52) Visitor 42514703: Automations problem
+(2024-05-09 20:56:12) Dave Miller: Hi, I'm Dave from the SimpleGrowth Systems support team.
+(2024-05-09 20:56:55) Visitor 42514703: Hi Dave
+(2024-05-09 20:57:22) Dave Miller: Can you please let me know what problems are you facing with the automation?
+(2024-05-09 20:57:46) Visitor 42514703: Yes, A fert upsell went out  prematurely to 8,000 of my clients, my phone is ringing off the hook and clients are yelling at me and I don't even have that service
+(2024-05-09 20:58:09) Dave Miller: Could you please help me with your name, email, account name ?
+(2024-05-09 20:58:30) Visitor 42514703: Yes, Dorian Bonar at SGS.....GOTCHA!!!
+(2024-05-09 20:59:01) Dave Miller: Lol, you scared me.
+(2024-05-09 20:59:10) Visitor 42514703: so mean of me, sorry. Have a nice nite Dave
+(2024-05-09 20:59:35) Visitor 42514703: see? now you feel even MORE relieved to get off work!
+(2024-05-09 21:00:10) Dave Miller: Hahaha yes, I almost had a panic attack.
+(2024-05-09 21:00:33) Visitor 42514703: oh sorry. i was working on the website to present revisions to Mike and saw the chat box...so tempting
+(2024-05-09 21:00:53) Visitor 42514703: see you tomorrow!
+(2024-05-09 21:01:05) Dave Miller: Definitely!!
+(2024-05-09 21:01:08) Dave Miller: Have a wonderful rest of your day!!
+(2024-05-09 21:01:13) Visitor 42514703: will do
+================================================================================
+Timestamp: 2024-05-09T03:17:25Z
+Unread:false
+Visitor ID: 9245058.1LgmhkRYJxQt0T1
+Visitor Name: Jason Murphy 
+Visitor Email: jason@mylawnworks.net
+Visitor Notes: 
+IP: 184.59.66.202
+Country Code: US
+Country Name: United States
+Region: Indiana
+City: Jeffersonville
+User Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/124.0.6367.111 Mobile/15E148 Safari/604.1
+Platform: iOS
+Browser: ChromeiOS
+
+Message: Asked for an automation to be built a couple weeks ago.  Still waiting for someone to reach out
+================================================================================
+Timestamp: 2024-05-02T18:33:49Z
+Unread:false
+Visitor ID: 9245058.1LZmgmQnfBUl4eJ
+Visitor Name: Visitor 60794210
+Visitor Email: 
+Visitor Notes: 
+IP: 100.7.123.121
+Country Code: US
+Country Name: United States
+Region: Virginia
+City: Henrico
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Platform: Windows
+Browser: Chrome
+
+(2024-05-02 18:33:48) Visitor 60794210: Hi There! I have a question for Stepping Stone Landscaping
+(2024-05-02 18:34:09) Samuel Clark: Hey there! This is Samuel from SimpleGrowth Systems Chat Support. How can I help you today?
+(2024-05-02 18:35:41) Visitor 60794210: Hey Samuel! On some of our manual emails, I insert the SG credit card form. (For example, I insert the email document and then click insert form.) I'm not sure that the form is working anymore - can you please check on this for me?
+(2024-05-02 18:36:23) Samuel Clark: Sure I will look into this.
+(2024-05-02 18:36:24) Visitor 60794210: I just sent an invoice email to Kristin Miller and definitely clicked to insert the credit card form, but if you look at her email traffic the button linking to that form did not work.
+(2024-05-02 18:36:27) Visitor 60794210: Thanks!
+(2024-05-02 18:36:51) Samuel Clark: Could you please help me with your name and email for our records?
+(2024-05-02 18:37:00) Visitor 60794210: Yes, Joanna Nelson, joanna@steppingstoneva.com
+(2024-05-02 18:37:08) Samuel Clark: Thank you for the information.
+(2024-05-02 18:37:14) Samuel Clark: Allow me a few minutes while I retrieve the account details.
+(2024-05-02 18:39:57) Samuel Clark: Joanna I am testing the form. Kindly be Online
+(2024-05-02 18:40:24) Visitor 60794210: Understand, thanks!
+(2024-05-02 18:43:58) Samuel Clark: Thank you for your patience Joanna
+(2024-05-02 18:44:16) Samuel Clark: Just wanted to confirm if you are using the same method
+(2024-05-02 18:44:18) Samuel Clark: Agent uploaded: image.png
+URL: https://simplegrowthsystems.zendesk.com/attachments/token/zNYwCUzfrIcFY3458fn3Lmqck/?name=image.png
+Type: image/png
+Size: 63920
+(2024-05-02 18:44:31) Samuel Clark: I have tested it and it is working fine for my test account
+(2024-05-02 18:44:43) Visitor 60794210: Yes, that's the form I just tried to insert.
+(2024-05-02 18:45:30) Visitor 60794210: Let me do another test on an internal test account we have if that's OK. One thing I've noticed that's different lately... in the past when I forgot to insert the form I received an error message before I could send the email. That message seems to have gone away.
+(2024-05-02 18:45:50) Samuel Clark: The form is working fine. Sure you can let me know the test account
+(2024-05-02 18:46:58) Visitor 60794210: Thanks. I just sent it again, not actually a test account but Nelson, Charles and I was able to access the form.
+(2024-05-02 18:47:21) Samuel Clark: Great. I am glad it worked
+(2024-05-02 18:47:44) Visitor 60794210: I'm not sure what happened to Kristin Miller. For the first email I sent to her I forgot to add the form, so then I added it again in a new email. But, the button link still didn't work. Maybe it was on my end, I'll check the next time I send it to someone. Thanks for looking into it!
+(2024-05-02 18:48:22) Samuel Clark: Sure. Just make sure the form is captured correctly and then hit the send button
+(2024-05-02 18:48:30) Samuel Clark: Is there anything else I can assist you with?
+(2024-05-02 18:48:35) Visitor 60794210: That was it, thank you!
+(2024-05-02 18:48:42) Samuel Clark: Thank you for contacting Simple Growth Systems Chat Support. Have a great rest of your day!
+(2024-05-02 18:49:41) Visitor 60794210: You too!
+(2024-05-02 18:49:57) Samuel Clark: Thanks. Bye
+================================================================================
