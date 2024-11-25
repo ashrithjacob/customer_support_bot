@@ -7,29 +7,47 @@ license: MIT
 description: A pipeline for retrieving relevant information from a knowledge base using the Llama Index library.
 requirements: llama-index
 """
-
+import os
 from typing import List, Union, Generator, Iterator, Optional
 from schemas import OpenAIChatMessage
+from dotenv import load_dotenv
+load_dotenv()
 
 
-class SorceParser:
+class DocParser:
     def __init__(self):
         pass
 
-    def get_message(self, body: dict) -> str:
+    def get_message(self, body: List[dict]) -> str:
         # get's the last possible document sent
-        return body["messages"][-2]["content"]
+        return body[0]["files"][0]["file"]["data"]["content"]
 
-    def get_document(self, content: str) -> str:
+
+    def get_document_name(self, body: dict) -> str:
         # get's all the documents sent
+        content = self.get_message(body)
         document_content = content.split("<context>")[-1].split("</context>")[0]
-        return document_content
+        document_name = document_content.split("</source_id>")[0].split("<source_id>")[-1]
+        return document_name
+    
+    def get_local_document(self, name:str) -> str:
+        full_path_to_dir = os.path.join(os.getenv("WEBUI_DIR"),"uploads")
+        for file in os.listdir(full_path_to_dir):
+            if file.endswith(name):
+                with open(os.path.join(full_path_to_dir, file), "r") as f:
+                    return f.read()
+        
+    def run(self, body: dict) -> str:
+        doc_name = self.get_document_name(body)
+        doc_content = self.get_local_document(doc_name)
+        return doc_content
 
 
 class Pipeline:
     def __init__(self):
         self.documents = None
         self.index = None
+        self.user_inputs = []
 
     async def on_startup(self):
         # This function is called when the server is started.
@@ -41,7 +59,8 @@ class Pipeline:
 
     async def inlet(self, body: dict, user: Optional[dict] = None) -> dict:
         """Modifies form data before the OpenAI API request."""
-        print(f"Received body: {body}")
+        print("INLET")
+        self.user_inputs.append(body)
         return body
 
     def pipe(
@@ -49,8 +68,7 @@ class Pipeline:
     ) -> Union[str, Generator, Iterator]:
         # This is where you can add your custom RAG pipeline.
         # Typically, you would retrieve relevant information from your knowledge base and synthesize it to generate a response.
-
-        print(messages)
-        print(user_message)
-
-        return str(body)
+        print("PIPE")
+        d = DocParser()
+        file_content= d.get_message(self.user_inputs)
+        return file_content
