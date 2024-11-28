@@ -7,3 +7,4 @@ __pycache__
 pics/
 .webui_secret_key
 data/
+docs
