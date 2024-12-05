@@ -2,9 +2,10 @@ import streamlit as st
 import pandas as pd
 import json
 import helper
-from streamlit_autorefresh import st_autorefresh
+#from streamlit_autorefresh import st_autorefresh
 from io import StringIO
 
+CHUNK_SIZE = 4
 
 uploaded_file = st.file_uploader("Choose a file (only .txt or .csv)" , type={"csv", "txt"})
 
@@ -16,13 +17,13 @@ if uploaded_file is not None:
 	elif helper.PreProcess.is_txt(uploaded_file.name):
 		stringio = StringIO(uploaded_file.getvalue().decode("utf-8"))
 		file_contents = stringio.read()
-		st.write(file_contents[:1000])
 	else:
 		st.write("Please upload only a .txt or .csv file")
 
-	runner = helper.CombineTables(chunk_size=2, file_contents=file_contents)
-
+	runner = helper.CombineTables(chunk_size=CHUNK_SIZE, file_contents=file_contents)
+	st.write("Reading all conversations and generating table....")
 	for idx, clump in enumerate(runner.clumps):
+		print(f"Processing clump {idx}")
 		table_new = runner.get_subtable(clump)
 		runner.combine_tables(table_new)
 		table_formatted = helper.Display.dict_to_df(runner.combined_table)

@@ -7,30 +7,61 @@ license: MIT
 description: A pipeline for retrieving relevant information from a knowledge base using the Llama Index library.
 requirements: llama-index
 """
+
 import os
 from typing import List, Union, Generator, Iterator, Optional
-from schemas import OpenAIChatMessage
+
+# from schemas import OpenAIChatMessage
 import boto3
 import os
 import json
 import re
 import pandas as pd
-from botocore.exceptions import ClientError
+from numpy import dot
+from numpy.linalg import norm
 from dotenv import load_dotenv
+from botocore.exceptions import ClientError
 from typing import List, Optional, Iterator
 from pydantic import BaseModel
-from fuzzywuzzy import fuzz
+
+# from langchain_aws import BedrockEmbeddings, ChatBedrock
+
 load_dotenv()
 
 
+model_id = "meta.llama3-1-70b-instruct-v1:0"
+emb_model = "amazon.titan-embed-text-v1"
+# embedding_model = BedrockEmbeddings(region_name=os.getenv("AWS_LOCATION"), model_id=emb_model)
+
 client = boto3.client(
-    "bedrock-runtime",
+    service_name="bedrock-runtime",
     region_name="us-west-2",
-    aws_access_key_id=os.getenv("AWS_ACCESS_KEY"),
-    aws_secret_access_key=os.getenv("AWS_SECRET_KEY"),
+    aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
+    aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
 )
 
-model_id = "meta.llama3-1-70b-instruct-v1:0"
+
+def embed(prompt_data: str):
+    body = json.dumps(
+        {
+            "inputText": prompt_data,
+        }
+    )
+
+    model_id = "amazon.titan-embed-text-v1"  # look for embeddings in the modelID
+    accept = "application/json"
+    content_type = "application/json"
+
+    # Invoke model
+    response = client.invoke_model(
+        body=body, modelId=model_id, accept=accept, contentType=content_type
+    )
+
+    # Print response
+    response_body = json.loads(response["body"].read())
+    embedding = response_body.get("embedding")
+    return embedding
+
 
 class Row(BaseModel):
     no: int
@@ -39,16 +70,18 @@ class Row(BaseModel):
     description: str
     status: str
 
+
 class Table(BaseModel):
     rows: List[Row]
 
+
 class PreProcess:
     def is_csv(file_path: str) -> bool:
-        return file_path.endswith(".csv") 
+        return file_path.endswith(".csv")
 
     def is_txt(file_path: str) -> bool:
         return file_path.endswith(".txt")
-    
+
     def df_to_string(df: pd.DataFrame) -> str:
         result = []
         for _, row in df.iterrows():
@@ -61,73 +94,73 @@ class PreProcess:
             result.append("\n".join(row_strings))
         return "\n\n\n".join(result)
 
-
     def split_text_file(file_contents: str, min_equals: int = 3) -> List[str]:
         """
         Read a text file and split it into chunks based on separator lines containing equals signs.
-        
+
         Args:
             file_path (str): Path to the text file
             min_equals (int): Minimum number of consecutive equals signs to consider as separator
                             Default is 3 (i.e., "===")
-        
+
         Returns:
             List[str]: List of text chunks with whitespace trimmed
-        
+
         Raises:
             FileNotFoundError: If the specified file doesn't exist
             ValueError: If min_equals is less than 1
         """
         if min_equals < 1:
             raise ValueError("min_equals must be at least 1")
-        
+
         # Create regex pattern for one or more equals signs
         separator_pattern = f"^={{{min_equals},}}$"
-        
+
         try:
             # Read the entire file content
             content = file_contents
-            
+
             # Split the content using regex
             # This will match lines that contain only equals signs (minimum count specified)
             chunks = re.split(separator_pattern, content, flags=re.MULTILINE)
-            
+
             # Clean up the chunks: remove empty strings and strip whitespace
             cleaned_chunks = [chunk.strip() for chunk in chunks if chunk.strip()]
-            
+
             return cleaned_chunks
-        
-        except FileNotFoundError:
-            raise FileNotFoundError(f"File not found: {file_path}")
+
         except Exception as e:
             raise Exception(f"Error processing file: {str(e)}")
-
 
     def clump_strings_generator(strings: List[str], chunk_size: int) -> Iterator[str]:
         """
         Generator version that yields clumped strings one at a time.
         """
         for i in range(0, len(strings), chunk_size):
-            yield '\n\n\n'.join(strings[i:i + chunk_size])
+            yield "\n\n\n".join(strings[i : i + chunk_size])
 
     def process_text_chunks(file_contents: str, chunk_size: int) -> List[str]:
         split = PreProcess.split_text_file(file_contents=file_contents)
-        clumps = PreProcess.clump_strings_generator(strings=split, chunk_size=chunk_size)
+        clumps = PreProcess.clump_strings_generator(
+            strings=split, chunk_size=chunk_size
+        )
         return clumps
 
     def extract_json_block(text: str) -> Optional[str]:
         if "```json" not in text:
             json_string = text.strip()
         else:
-            pattern = r'```json\s*([\s\S]*?)\s*```'
+            pattern = r"```json\s*([\s\S]*?)\s*```"
             match = re.search(pattern, text, re.DOTALL)
             if match:
-                json_string=match.group(1).strip()
+                json_string = match.group(1).strip()
 
         if json_string[1] == "'":
-            json_string_adjusted=json_string.replace('"', 'TEMP').replace("'", '"').replace('TEMP', "'")
+            json_string_adjusted = (
+                json_string.replace('"', "TEMP").replace("'", '"').replace("TEMP", "'")
+            )
         else:
-            json_string_adjusted=json_string
+            json_string_adjusted = json_string
 
         return json_string_adjusted
 
@@ -138,12 +171,13 @@ class Display:
             print(f"Clump {i}:\n{clump}\n")
 
     def dict_to_df(table: dict):
-        rows = table['rows']
+        rows = table["rows"]
         df = pd.DataFrame(rows)
         return df
 
+
 class Execute:
-    def get_table(conversations: str, existing_table:Table)-> Table:
+    def get_table(conversations: str, existing_table: Table) -> Table:
         system_prompt = """
                             You are an expert customer support analyst with extensive experience in the Knowledge Centered Service framework.
                             The framework is designed to generate help articles based on conversations that occur at a contact center.
@@ -225,20 +259,18 @@ class Execute:
         <|eot_id|>
         <|start_header_id|>assistant<|end_header_id|>
         """
-            
+
         native_request = {
-        "prompt": formatted_prompt,
-        "max_gen_len": 2048,
-        "temperature": 0.0,
+            "prompt": formatted_prompt,
+            "max_gen_len": 2048,
+            "temperature": 0.0,
         }
         request = json.dumps(native_request)
 
         try:
             # Invoke the model with the request.
             response = client.invoke_model(
-            modelId=model_id,
-            body=request,
-            contentType="application/json"
+                modelId=model_id, body=request, contentType="application/json"
             )
 
             # Decode the response body.
@@ -249,15 +281,34 @@ class Execute:
         except (ClientError, Exception) as e:
             print(f"ERROR: Can't invoke '{model_id}'. Reason: {e}")
 
+
 class CombineTables:
-    def __init__(self, chunk_size:int, file_contents:str):
-        self.table_format = {"rows":[{"no": None, "topic": None, "count": None, "description": None, "status": None}]}
-        self.combined_table= {"rows":[]}
+    def __init__(self, chunk_size: int, file_contents: str):
+        self.table_format = {
+            "rows": [
+                {
+                    "no": None,
+                    "topic": None,
+                    "count": None,
+                    "description": None,
+                    "status": None,
+                }
+            ]
+        }
+        self.combined_table = {"rows": []}
         try:
-            self.clumps = PreProcess.process_text_chunks(file_contents=file_contents, chunk_size=chunk_size)
+            self.clumps = PreProcess.process_text_chunks(
+                file_contents=file_contents, chunk_size=chunk_size
+            )
         except Exception as e:
             print(f"Error: {str(e)}")
             exit(1)
+
+    def cosine_similarity(self, e1, e2):
+        return dot(e1, e2) / (norm(e1) * norm(e2))
+
+    def fuzz_match(self, s1, s2):
+        return self.cosine_similarity(embed(s1), embed(s2))
 
     def similarity(self, s1, s2):
         s1 = s1.lower()
@@ -265,66 +316,56 @@ class CombineTables:
         if "issue" in s1 and "issue" in s2:
             s1 = s1.replace("issue", "")
             s2 = s2.replace("issue", "")
-        sim = fuzz.ratio(s1, s2)
-        if sim >= 80:
+        sim = self.fuzz_match(s1, s2)
+        if sim >= 0.6:
             return True
         else:
             return False
 
     def get_subtable(self, clump: str):
-        table_new_string = Execute.get_table(conversations=clump, existing_table=self.table_format)
+        table_new_string = Execute.get_table(
+            conversations=clump, existing_table=self.table_format
+        )
         table_new = PreProcess.extract_json_block(table_new_string)
         table_new = json.loads(table_new)
         return table_new
 
-    def combine_tables(self, table_new:dict):
+    def combine_tables(self, table_new: dict):
         for new_row in table_new["rows"]:
-            existing_row = next((row for row in self.combined_table["rows"] if (self.similarity(row["topic"],new_row["topic"]))), None) 
+            existing_row = next(
+                (
+                    row
+                    for row in self.combined_table["rows"]
+                    if (self.similarity(row["topic"], new_row["topic"]))
+                ),
+                None,
+            )
             if existing_row:
-                print(f'sim between {existing_row["topic"]} and {new_row["topic"]}: {self.similarity(existing_row["topic"],new_row["topic"])}')
+                print(
+                    f'sim between {existing_row["topic"]} and {new_row["topic"]}: {self.similarity(existing_row["topic"],new_row["topic"])}'
+                )
                 existing_row["count"] += 1
-                existing_row["description"] += f'\n #({existing_row["count"]}) {new_row["description"]}'
+                existing_row[
+                    "description"
+                ] += f'\n #({existing_row["count"]}) {new_row["description"]}'
             else:
                 current_table_length = len(self.combined_table["rows"])
                 new_row["no"] = current_table_length + 1
                 self.combined_table["rows"].append(new_row)
 
-
-class DocParser:
-    def __init__(self):
-        pass
-
-    def get_message(self, body: List[dict]) -> str:
-        # get's the last possible document sent
-        return body[0]["files"][0]["file"]["data"]["content"]
-
-
-    def get_document_name(self, body: dict) -> str:
-        # get's all the documents sent
-        content = self.get_message(body)
-        document_content = content.split("<context>")[-1].split("</context>")[0]
-        document_name = document_content.split("</source_id>")[0].split("<source_id>")[-1]
-        return document_name
-    
-    def get_local_document(self, name:str) -> str:
-        full_path_to_dir = os.path.join(os.getenv("WEBUI_DIR"),"uploads")
-        for file in os.listdir(full_path_to_dir):
-            if file.endswith(name):
-                with open(os.path.join(full_path_to_dir, file), "r") as f:
-                    return f.read()
-        
-    def run(self, body: dict) -> str:
-        doc_name = self.get_document_name(body)
-        doc_content = self.get_local_document(doc_name)
-        return doc_content
-
-
 class Pipeline:
     def __init__(self):
-        self.name = "Categorizing Agent"
         self.documents = None
         self.index = None
         self.user_inputs = []
+        self.counter = 0
+        self.table = []
+
+    def get_filename(self, body: List[dict]) -> str:
+        return body["files"][0]["name"]
+
+    def get_contents(self, body: List[dict]) -> str:
+        return body["files"][0]["file"]["data"]["content"]
 
     async def on_startup(self):
         # This function is called when the server is started.
@@ -333,6 +374,11 @@ class Pipeline:
     async def on_shutdown(self):
         # This function is called when the server is stopped.
         pass
+
+    async def outlet(self, response: dict, user: Optional[dict] = None) -> dict:
+        """Modifies the OpenAI API response before sending it to the user."""
+        print("OUTLET")
+        return response
 
     async def inlet(self, body: dict, user: Optional[dict] = None) -> dict:
         """Modifies form data before the OpenAI API request."""
@@ -346,6 +392,17 @@ class Pipeline:
         # This is where you can add your custom RAG pipeline.
         # Typically, you would retrieve relevant information from your knowledge base and synthesize it to generate a response.
         print("PIPE")
-        d = DocParser()
-        file_content= d.get_message(self.user_inputs)
-        return file_content
+        print(os.getenv("AWS_ACCESS_KEY_ID"))
+        print("LENgth of list", len(self.user_inputs))
+        file_name = self.get_filename(self.user_inputs[0])
+        file_content = self.get_contents(self.user_inputs[0])
+        if PreProcess.is_txt(file_name):
+            runner = CombineTables(chunk_size=5, file_contents=file_content)
+        else:
+            return "Please upload only a .txt file"
+
+        for idx, clump in enumerate(runner.clumps):
+            table_new = runner.get_subtable(clump)
+            runner.combine_tables(table_new)
+        table_formatted = Display.dict_to_df(runner.combined_table)
+        return str(table_formatted)
