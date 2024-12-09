@@ -14,7 +14,7 @@ load_dotenv()
 
 
 DEFAULT_RETURN_VALUE= '{"rows":[]}'
-#model_id = "meta.llama3-1-70b-instruct-v1:0"
+model_id_description = "meta.llama3-1-70b-instruct-v1:0"
 model_id = "meta.llama3-1-8b-instruct-v1:0"
 #model_id = "meta.llama3-2-1b-instruct-v1:0"
 #model_id="mistral.mistral-7b-instruct-v0:2"
@@ -31,6 +31,10 @@ client = boto3.client(
     config=config
 )
 
+with open("./src/weblinks.json", "r") as file:
+    articles = json.load(file)
+list_topics=[articles[0][k].keys() for k in articles[0].keys()]
+list_topics = list(list_topics[0])+list(list_topics[1])
 
 class Row(BaseModel):
     no: int
@@ -296,7 +300,22 @@ class CombineTables:
                 return False
         else:
             return False
-
+        
+    def is_article_found(self, s1:str, s2:str):
+        if not(s1==s2==None):
+            s1 = s1.lower()
+            s2 = s2.lower()
+            if "issue" in s1 and "issue" in s2:
+                s1 = s1.replace("issue", "")
+                s2 = s2.replace("issue", "")
+            sim = fuzz.ratio(s1, s2)
+            if sim >= 50:
+                return True
+            else:
+                return False
+        else:
+            return False
+        
     def get_subtable(self, clump: str):
         table_new_string = Execute.get_table(conversations=clump, existing_table=self.table_format)
         table_new = PreProcess.extract_json_block(table_new_string)
@@ -306,6 +325,12 @@ class CombineTables:
         except json.JSONDecodeError as e:
             print(f"Error: {str(e)}")
             return self.table_format
+    
+    def get_status(self, topic:str):
+        for topic_web in list_topics:
+            if self.is_article_found(topic, topic_web):
+                return "Article Found"
+        return "No Article Found"
 
     def combine_tables(self, table_new:dict):
         for new_row in table_new["rows"]:
@@ -313,13 +338,62 @@ class CombineTables:
             if existing_row:
                 existing_row["count"] += 1
                 existing_row["description"] += f'\n #({existing_row["count"]}) {new_row["description"]}'
+                existing_row["status"] =self.get_status(existing_row["topic"])
             else:
                 current_table_length = len(self.combined_table["rows"])
                 new_row["no"] = current_table_length + 1
+                new_row["status"] = self.get_status(new_row["topic"])
                 self.combined_table["rows"].append(new_row)
 
+def generate_article(description, topic):
+        system_prompt = """
+                            You are an expert customer support analyst with extensive experience in the Knowledge Centered Service framework.
+                            The framework is designed to generate help articles based on conversations that occur at a contact center.
+                        """
 
+        user_prompt = f"""
+                **TASK**
+                    -You are provided a topic and a detailed description of the conversations that relate to the topic.
+                    -You are required to create a help article based on the topic and the description of the conversations.
+                    -The help article should be detailed and provide a solution to the issue mentioned in the conversations, based on the information provided.
+                    Here is the topic:{topic}
+                    Here is the description of the conversations that relate to the topic:{description}
+                    """
 
+        formatted_prompt = f"""
+        <|begin_of_text|>
+        <|start_header_id|>system<|end_header_id|>
+        {system_prompt}
+        <|start_header_id|>user<|end_header_id|>
+        {user_prompt}
+        <|eot_id|>
+        <|start_header_id|>assistant<|end_header_id|>
+        """
+            
+        native_request = {
+        "prompt": formatted_prompt,
+        "max_gen_len": 8192,
+        "temperature": 0.0,
+        }
+        request = json.dumps(native_request)
+
+        try:
+            # Invoke the model with the request.
+            response = client.invoke_model(
+            modelId=model_id_description,
+            body=request,
+            contentType="application/json"
+            )
+
+            # Decode the response body.
+            model_response = json.loads(response["body"].read())
+            response_text = model_response["generation"]
+            return response_text
+
+        except (ClientError, Exception) as e:
+            print(f"ERROR: Can't invoke '{model_id}'. Reason: {e}")
+            return "Error generating article"
+'''
 if __name__ == "__main__":
     start = time.time()
     with open("./docs/test100redacted.txt", "r") as file:
@@ -333,3 +407,4 @@ if __name__ == "__main__":
     end = time.time()
     print(f"Time taken: {end-start}")
 
+'''

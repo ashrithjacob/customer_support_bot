@@ -1,0 +1,35 @@
+[
+    {
+        "Getting Started":
+        {
+            "I Forgot My Password. How Do I Reset It?": "https://kipuhealth.zendesk.com/hc/en-us/articles/360044354752-I-Forgot-My-Password-How-Do-I-Reset-It",
+            "Kipu Academy: Course Catalog":"https://kipuhealth.zendesk.com/hc/en-us/articles/11925560813339-Kipu-Academy-Course-Catalog",
+            "Your Kipu Instance + Login/Log Out Instructions":"https://kipuhealth.zendesk.com/hc/en-us/articles/360044801731-Your-Kipu-Instance-Login-Log-Out-Instructions",
+            "Contacts":"https://kipuhealth.zendesk.com/hc/en-us/articles/360044853271-Contacts",
+            "User Tabs Overview": "https://kipuhealth.zendesk.com/hc/en-us/articles/360044357432-User-Tabs-Overview",
+            "Manage Your User Profile": "https://kipuhealth.zendesk.com/hc/en-us/articles/360044357512-Manage-Your-User-Profile",
+            "How Do I Change My Password?": "https://kipuhealth.zendesk.com/hc/en-us/articles/360045801071-How-Do-I-Change-My-Password",
+            "View and Send Messages":"https://kipuhealth.zendesk.com/hc/en-us/articles/360044357632-View-and-Send-Messages",
+            "Manage Your Notifications":"https://kipuhealth.zendesk.com/hc/en-us/articles/360044804291-Manage-Your-Notifications",
+            "Manage Your Downloads":"https://kipuhealth.zendesk.com/hc/en-us/articles/360044357992-Manage-Your-Downloads",
+            "Incoming Patients":"https://kipuhealth.zendesk.com/hc/en-us/articles/360044358092-Incoming-Patients",
+            "Manage Faxes":"https://kipuhealth.zendesk.com/hc/en-us/articles/360044804731-Manage-Faxes",
+            "Technical Requirements":"https://kipuhealth.zendesk.com/hc/en-us/articles/360044778251-Technical-Requirements",
+            "First Time User":"https://kipuhealth.zendesk.com/hc/en-us/articles/360044330292-First-Time-User",
+            "First Time Super Admin":"https://kipuhealth.zendesk.com/hc/en-us/articles/360044346272-First-Time-Super-Admin"
+        },
+        "Dashboard":
+        {
+        "Dashboard: Overview":null,
+        "Dashboard: Orders":null,
+        "Dashboard: Med Pass":null,
+        "Dashboard: Actions":null,
+        "Dashboard: Physician Review":null,
+        "Dashboard: Case Load":null,
+        "Dashboard: Current Census":null,
+        "Dashboard: Discharged Patients":null,
+        "Dashboard: Pharmacist Review":null,
+        "Dashboard: Nurse Review":null
+        }
+    }
+]

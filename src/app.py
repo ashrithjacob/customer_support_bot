@@ -9,6 +9,11 @@ CHUNK_SIZE = 4
 
 uploaded_file = st.file_uploader("Choose a file (only .txt or .csv)" , type={"csv", "txt"})
 
+#if st.table is not None:
+#	generate_button = st.button("Generate", key="generate_topics_button")
+
+
+
 table_placeholder = st.empty()
 if uploaded_file is not None:
 	if helper.PreProcess.is_csv(uploaded_file.name):
@@ -29,3 +34,9 @@ if uploaded_file is not None:
 		table_formatted = helper.Display.dict_to_df(runner.combined_table)
 		with table_placeholder.container():
 			st.table(table_formatted)
+
+	st.session_state["table"] = table_formatted
+
+	if st.button("generate missing articles"):
+		st.switch_page("src/pages/article_generation.py")
+		
