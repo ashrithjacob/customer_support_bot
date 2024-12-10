@@ -2,23 +2,28 @@ import streamlit as st
 import pandas as pd
 import helper 
 
-def create_topics(table_formatted: pd.DataFrame) -> pd.DataFrame:
-    topics = {
-        "no": [],
-        "topic": [],
-        "article": [],
+def create_topics(row: dict) -> pd.DataFrame:
+    article_row = {
+        "no": None,
+        "topic": None,
+        "article": None,
     }
-    for idx, row in table_formatted.iterrows():
-        if row["status"] == "No Article Found" and row["topic"].lower() != "unclear":
-            topics["no"].append(row["no"])
-            topics["topic"].append(row["topic"])
-            article = helper.generate_article(row["description"], topics)
-            topics["article"].append(article)
-    topics_df = pd.DataFrame(topics)
-    return topics_df
+    if row["status"] == "No Article Found" and row["topic"].lower() != "unclear":
+        article_row["no"]=row["no"]
+        article_row["topic"]=row["topic"]
+        article = helper.generate_article(row["description"], row["topic"])
+        article_row["article"] = article
+    return article_row
 
 
-st.write("Creating topics....")
-topics_df = create_topics(st.session_state["table"])
-st.table(topics_df)
+
+if st.button("Generate missing topics from previous table"):
+    rows_new_table = []
+    st.write("Creating topics....")
+    table_placeholder = st.empty()
+    for idx, row in st.session_state["table"].iterrows():
+        rows_new_table.append(create_topics(row))
+        table_formatted = pd.DataFrame(rows_new_table)
+        with table_placeholder.container():
+            st.table(table_formatted)
 

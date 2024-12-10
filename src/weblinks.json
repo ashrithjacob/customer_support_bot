@@ -30,6 +30,36 @@
         "Dashboard: Discharged Patients":null,
         "Dashboard: Pharmacist Review":null,
         "Dashboard: Nurse Review":null
+        },
+        "Patients":
+        {
+            "Patient Information [Facesheet]":null,
+            "Patient Chart":null,
+            "Patients:Orders & Documentation":null,
+            "Patients:eRx (e-Prescribe): Rcopia":null,
+            "Patients:Billing and UR (Non-Integrated)":null,
+            "Patients:Advice & Troubleshooting":null,
+            "Patients:Kipu Messenger [Legacy]":null,
+            "Patients:Referring a Patient to Another Facility":null,
+            "Customize Patient Header Information on Casefile/PDF Packages":null,
+            "Patients Overview":null,
+            "Patients Tags & Custom Filters":null,
+            "Pre-Admission Patient Charts":null,
+            "Patients:Archive Pre-Admission Charts":null,
+            "Add Patient":null,
+            "Patient Flags":null,
+            "Working with Patient Queues":null,
+            "Discharge a Patient":null,
+            "Closing/Reopening a Patient Chart":null,
+            "Readmitting a Patient":null,
+            "Patients:Chart Tracker: Overview and Setup":null,
+            "Patients:Chart Tracker: How to Transfer Chart between Locations":null,
+            "Chart Tracker: Readmit a Patient":null,
+            "Patients:Chart Tracker: Transfer Live Forms Between Charts":null,
+            "Patients:Chart Tracker: History and Manage Packages Tabs":null,
+            "Patients:How to Transfer Charts between Facilities (Legacy Method)":null,
+            "Patients:Casefiles":null,
+            "Patients:PDF Packages":null
         }
     }
 ]
