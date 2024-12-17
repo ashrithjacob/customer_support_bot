@@ -4,6 +4,7 @@ import json
 import re
 import time
 import pandas as pd
+import streamlit as st
 from botocore.exceptions import ClientError
 from botocore.config import Config
 from dotenv import load_dotenv
@@ -207,21 +208,13 @@ class Execute:
 
                 **EXAMPLES**
 
-                Here is an example of one issue with count and descriptions of the conversations that relate to the issue: 
+                Here is the columns of the table: 
 
-                Column 1: No: 1
-
-                Column 2: Topic: 20 Day to Close Automation Issues	
-
-                Column 3: Count: 2	
-
-                Column 4: Description: 
-
-                (1) Timestamp: 2024-06-13T16:01:19Z > Visitor said "Visitor 8941852: my 20 day to close automation is not working" 
-
-                (2) Timestamp: 2024-06-10T20:35:28Z > Visitor said "We are experiencing an issue with our text automations not going out. not sending text messages or follow-ups.".  NOTE: Put each timestamp description on a new line in that column so it is easy to read.
-
-                Column 5: No Article Found
+                No: (Unique number for each topic)
+                Topic: (Primary topic of the conversation)
+                Count: (Number of conversations related to this topic)
+                Description:(Description of the customer issue along with the date, time and transcripts of the conversation)
+                Status:(No Article Found )
 
                 **USER REPITITION**
 
@@ -281,6 +274,7 @@ class CombineTables:
         self.combined_table= {"rows":[]}
         try:
             self.clumps = PreProcess.process_text_chunks(file_contents=file_contents, chunk_size=chunk_size)
+            st.session_state["clumps"] = self.clumps
             self.total_clumps = PreProcess.split
         except Exception as e:
             print(f"Error: {str(e)}")
@@ -353,11 +347,9 @@ def generate_article(description, topic):
 
         user_prompt = f"""
                 **TASK**
-                    -You are provided a topic and a detailed description of the conversations that relate to the topic.
-                    -You are required to create a help article based on the topic and the description of the conversations.
-                    -The help article should be detailed and provide a solution to the issue mentioned in the conversations, based on the information provided.
-                    Here is the topic:{topic}
-                    Here is the description of the conversations that relate to the topic:{description}
+                    You are provided a issue:{topic} and a detailed description of the conversations containing the solution to the issue:{description}
+                    - Create a help article that can be used to address the issue.  The article should ONLY CONTAIN information from: {description}.
+                    DO NOT MAKE UP ANY INFORMATION
                     """
 
         formatted_prompt = f"""

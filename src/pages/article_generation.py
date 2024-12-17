@@ -8,6 +8,7 @@ def create_topics(row: dict) -> pd.DataFrame:
         "topic": None,
         "article": None,
     }
+    print(st.session_state["clumps"])
     if "No" in row["status"] and row["topic"].lower() != "unclear":
         article_row["no"]=row["no"]
         article_row["topic"]=row["topic"]
