@@ -8,3 +8,4 @@ pics/
 .webui_secret_key
 data/
 docs
+.devcontainer
