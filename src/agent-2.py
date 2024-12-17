@@ -1,3 +1,5 @@
+# template for the scraping pipeline
+
 import json
 from scrapegraphai.graphs import SmartScraperGraph
 from dotenv import load_dotenv
